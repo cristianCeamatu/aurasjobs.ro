@@ -1,0 +1,5 @@
+[15-Apr-2019 12:45:07 UTC] PHP Fatal error:  Uncaught ErrorException: Undefined index: country_name in /home/q59b21z5/public_html/index.php:69
+Stack trace:
+#0 /home/q59b21z5/public_html/index.php(69): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(8, 'Undefined index...', '/home/q59b21z5/...', 69, Array)
+#1 {main}
+  thrown in /home/q59b21z5/public_html/index.php on line 69

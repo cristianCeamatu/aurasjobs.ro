@@ -1,0 +1,808 @@
+@import "variables.less";
+@import "mixins.less";
+
+// Global Components
+
+body {
+	.serif-font;
+	font-size: 20px;
+	color: @gray-dark;
+}
+
+// Typography
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	.sans-serif-font;
+	font-weight: 800;
+}
+
+a {
+	color: @gray-dark;
+	&:hover,
+	&:focus {
+		color: @theme-primary;
+	}
+}
+
+a img {
+	&:hover,
+	&:focus {
+		cursor: zoom-in;
+	}
+}
+
+hr.small {
+	max-width: 100px;
+	margin: 15px auto;
+	border-width: 4px;
+	border-color: white;
+}
+
+// Navigation
+
+.navbar-custom {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 3;
+	.sans-serif-font;
+	.navbar-brand {
+		font-weight: 800;
+	}
+	.navbar-header {
+		.navbar-toggle {
+			color: @gray-light;
+			font-weight: 800;
+			text-transform: uppercase;
+			font-size: 12px;
+		}
+	}
+	.nav {
+		li {
+			a {
+				text-transform: uppercase;
+				font-size: 12px;
+				font-weight: 800;
+				letter-spacing: 1px;
+				color: black;
+			}
+		}
+	}
+	@media only screen and (min-width: 768px) {
+		background: transparent;
+		border-bottom: 1px solid transparent;
+		.navbar-brand {
+			color: white;
+			padding: 20px;
+			&:hover,
+			&:focus {
+				color: fade(white, 80%);
+			}
+		}
+		.nav {
+			li {
+				a {
+					color: @gray-dark;
+					padding: 20px;
+					&:hover,
+					&:focus {
+						color: @gray-dark;
+					}
+				}
+				a.dropdown-toggle {
+					color: white;
+					font-size: 14px;
+				}
+			}
+		}
+	}
+	@media only screen and (min-width: 1170px) {
+		-webkit-transition: background-color 0.3s;
+		-moz-transition: background-color 0.3s;
+		transition: background-color 0.3s;
+		/* Force Hardware Acceleration in WebKit */
+		-webkit-transform: translate3d(0, 0, 0);
+		-moz-transform: translate3d(0, 0, 0);
+		-ms-transform: translate3d(0, 0, 0);
+		-o-transform: translate3d(0, 0, 0);
+		transform: translate3d(0, 0, 0);
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
+		&.is-fixed {
+			/* when the user scrolls down, we hide the header right above the viewport */
+			position: fixed;
+			top: -61px;
+			background-color: fade(white, 90%);
+			border-bottom: 1px solid darken(white, 5%);
+			-webkit-transition: -webkit-transform 0.3s;
+			-moz-transition: -moz-transform 0.3s;
+			transition: transform 0.3s;
+			.navbar-brand {
+				color: @gray-dark;
+				&:hover,
+				&:focus {
+					color: @gray-dark;
+				}
+			}
+			.nav {
+				li {
+					a {
+						color: @gray-dark;
+						&:hover,
+						&:focus {
+							color: @gray-dark;
+						}
+					}
+				}
+			}
+		}
+		&.is-visible {
+			/* if the user changes the scrolling direction, we show the header */
+			-webkit-transform: translate3d(0, 100%, 0);
+			-moz-transform: translate3d(0, 100%, 0);
+			-ms-transform: translate3d(0, 100%, 0);
+			-o-transform: translate3d(0, 100%, 0);
+			transform: translate3d(0, 100%, 0);
+		}
+	}
+}
+
+// Header
+
+.intro-header {
+	background-color: @gray-light; 
+	background: no-repeat center center; 
+	background-attachment: scroll;
+	.background-cover;
+	// NOTE: Background images are set within the HTML using inline CSS!
+	margin-bottom: 50px;
+	.site-heading,
+	.post-heading,
+	.page-heading {
+		padding: 100px 0 50px;
+		color: white;
+		@media only screen and (min-width: 768px) {
+			padding: 150px 0;
+		}
+	}
+	.site-heading,
+	.page-heading {
+		text-align: center;
+		h1 {
+			margin-top: 0;
+			font-size: 50px;
+		}
+		.subheading {
+			font-size: 24px;
+			line-height: 1.1;
+			display: block;
+			.sans-serif-font;
+			font-weight: 700;
+			margin: 10px 0 0;
+			a {
+				color: white;
+			}
+			a:hover,
+			a:focus {
+				text-decoration: none;
+				color: lighten(@theme-primary, 25%);
+			}
+		}
+		@media only screen and (min-width: 768px) {
+			h1 {
+				font-size: 80px;
+			}
+		}
+	}
+}
+
+// Candidate Preview Index Page
+
+.candidatesIndex {
+	.sans-serif-font;
+	margin:0 1%;
+	.lead {
+		font-weight: 700;
+		margin: 50px auto 70px;
+		font-size: 22px;
+	}
+	.candidate {
+		-webkit-box-shadow: 4px 3px 5px 0px rgba(93,204,199,0.25);
+		-moz-box-shadow: 4px 3px 5px 0px rgba(93,204,199,0.25);
+		box-shadow: 4px 3px 5px 0px rgba(93,204,199,0.25);
+		padding:0 3% 1%;
+		> a {
+			color: @gray-dark;
+			&:hover,
+			&:focus {
+				text-decoration: none;
+				color: @theme-primary;
+			}
+			> .candidate-title {
+				font-size: 20px;
+				margin-bottom: 10px;
+			}
+			> .candidate-subtitle {
+				margin-top: -10px;
+				font-size: 16px;
+				font-weight: 300;
+				margin-bottom: 5px;
+			}
+		}
+		.date-added {
+			display: block;
+			font-size: 16px;
+		}
+		.actionButtons {
+			button {
+				cursor: pointer;			
+				padding: 1%;
+				display: inline-block;
+				opacity: 0.75;
+				&:hover {
+					opacity: 1;
+				}
+				&.active {
+					font-weight: 700;
+				    -ms-transform: scale(1.10, 1.10); /* IE 9 */
+				    -webkit-transform: scale(1.10, 1.10); /* Safari */
+				    transform: scale(1.10, 1.10);				
+				}
+			}
+		}
+		.actionForm {
+			margin: 0 3% 0 0;
+			.control-group {
+				padding: 0 2%;
+				.form-control {
+					width: 260px;
+				}
+			}
+			label {
+				color: @gray-light;
+			}
+			input {
+				min-height: 40px;
+				font-weight: 700;
+				font-size: 18px;
+				padding: 1%;
+				&[type="submit"] {
+				color: white;
+				background-color: @theme-primary;
+					&:hover {
+						background-color: lighten(@theme-primary, 10%);
+					}					
+				}
+			}
+		}
+		@media only screen and (min-width: 768px) {
+			> a {
+				> .candidate-title {
+					font-size: 24px;
+					margin-bottom: 15px;
+				}
+				> .candidate-subtitle {
+					font-size: 20px;
+					font-weight: 300;
+					margin-bottom: 15px;
+				}
+			}
+			.actionButtons {
+				button {
+					padding: 4px;
+					font-size: 12px;
+				}
+			}
+			.candidate-formToggle {
+				margin: 0;
+				.control-group {
+					.form-control {
+						width: 560px;
+					}
+				}
+				input[type="submit"] {
+				min-height: 50px;
+				}
+			}
+		}
+	}
+}
+
+// Sidenav candidates Page
+
+#sidenav {
+	.sans-serif-font;
+	margin: 4%;
+	.nav {
+		padding-right: 5px;
+		li {
+			font-size: 18px;
+			min-height: 50px;
+			font-weight: 700;
+			padding: 1%;
+			a {
+				margin:0 0 -5px;
+				padding-left: 0;
+				padding-bottom: 0;
+				&:focus,
+				&:hover {
+				background-color: inherit;
+				}
+			}
+			.actionButtons {
+				display: block;
+				font-size: 30px;
+				margin-top: -5px;
+				span.button {
+					cursor: pointer;
+					color: lighten(@theme-primary, 15%);					
+				}
+				span.active, span:hover {
+					color: @theme-primary;
+				}
+			}
+			.close {
+				display: none;
+				font-size: 20px;
+				color: darken(@theme-danger, 10%);
+				position: absolute;
+				top: 4%;
+				right: 2%;
+			}
+			&:focus,
+			&:hover {
+				background-color: lighten(@theme-primary, 38%);
+				.close {
+					display: inline;
+				}
+			}
+		}
+		li.selected {
+			background-color: @theme-primary;
+			a {
+				color: white;		
+			}
+		}
+		li.delimeter {
+			padding: 5%;
+			-webkit-box-shadow: inset 0px 0px 20px 10px rgba(246,246,246,1);
+			-moz-box-shadow: inset 0px 0px 20px 10px rgba(246,246,246,1);
+			box-shadow: inset 0px 0px 20px 10px rgba(246,246,246,1);
+			&:hover,
+			&:focus {
+				background-color: inherit;
+			}
+			@media only screen and (min-width: 768px) {
+			-webkit-box-shadow: inset 0px 0px 20px 75px rgba(246,246,246,1);
+			-moz-box-shadow: inset 0px 0px 20px 75px rgba(246,246,246,1);
+			box-shadow: inset 0px 0px 20px 75px rgba(246,246,246,1);
+			}
+		}
+		.form-horizontal {
+			margin: 0 2%;
+			font-size: 16px;
+			.control-group {
+				padding: 0 2%;
+				.form-control {
+					width: 260px;
+				}
+			}
+			label {
+				color: @gray-light;
+			}
+			input[type="submit"] {
+				color: white;
+				font-weight: 700;
+				font-size: 18px;
+				min-height: 40px;
+				padding: 1%;
+				background-color: @theme-primary;
+			}
+		}
+	}
+}
+
+//Partners section
+.partners {
+	border-top: 1px solid #f3f3f3;
+	padding: 90px 3%;
+	.partner {
+		margin: 15px auto;
+		text-align: center;
+	}
+	h3 {
+		margin-bottom: 30px;
+	}
+}
+
+// Subscribe Section
+
+.subscribe {
+	padding: 70px 2%;
+    background-color: @gray-darker;
+    background-image: url('../img/map-image.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    .section-heading {
+    	font-size: 36px;
+        margin-bottom: 15px;
+		margin-top: 60px;
+		font-weight: 700;
+        color: white;
+    }
+    .form-group {
+    	display: inline-block;
+    	width: 100%;
+        margin:0 auto 15px;
+        input {
+            padding: 15px;
+        }
+        input.form-control {
+            height: auto;
+        }
+    }
+    button {
+    	display: inline-block;
+    	width: 100%;
+    	background-color: @theme-primary;
+    	color: white;
+    	font-weight: 700;
+    }
+    .form-control:focus {
+        border-color: @theme-primary;
+        box-shadow: none;
+    }
+    ::-webkit-input-placeholder {
+       @include heading-font;
+       font-weight: 700;
+       color: @gray;
+    }
+    :-moz-placeholder { /* Firefox 18- */
+       @include heading-font;
+       font-weight: 700;
+       color: @gray;
+    }
+    ::-moz-placeholder {  /* Firefox 19+ */
+       @include heading-font;
+       font-weight: 700;
+       color: @gray;
+    }
+    :-ms-input-placeholder {  
+       @include heading-font;
+       font-weight: 700;
+       color: @gray;
+    }
+    .text-danger {
+        color: @theme-danger;
+    }
+    @media only screen and (min-width: 768px) {
+		.form-group {
+			width: 60%;
+		}
+		button {
+			width: 40%;
+		}    
+    }
+}
+
+// Footer
+
+footer {
+    padding: 25px 0 0;
+    text-align: center;
+    a,
+    a:hover,
+	a:focus,
+	a:active {
+    	text-decoration: none;
+    }
+    p { 
+    	margin-top: 0;
+    }
+}
+
+// Form Styles (for the create/update page)
+
+.floating-label-form-group {
+	font-size: 14px;
+	position: relative;
+	margin-bottom: 0;
+	padding-bottom: 0.5em;
+	border-bottom: 1px solid @gray-lighter;
+	input,
+	textarea {
+		z-index: 1;
+		position: relative;
+		padding-right: 0;
+		padding-left: 0;
+		border: none;
+		border-radius: 0;
+		font-size: 1.5em;
+		background: none;
+		box-shadow: none !important;
+		resize: none;
+	}
+	label {
+		display: block;
+		z-index: 0;
+		position: relative;
+		top: 2em;
+		margin: 0;
+		font-size: 0.85em;
+		line-height: 1.764705882em;
+		vertical-align: middle;
+		vertical-align: baseline;
+		opacity: 0;
+		-webkit-transition: top 0.3s ease,opacity 0.3s ease;
+		-moz-transition: top 0.3s ease,opacity 0.3s ease;
+		-ms-transition: top 0.3s ease,opacity 0.3s ease;
+		transition: top 0.3s ease,opacity 0.3s ease;
+	}
+	&::not(:first-child) {
+		padding-left: 14px;
+		border-left: 1px solid @gray-lighter;
+	}
+}
+
+.floating-label-form-group-with-value {
+	label {
+		top: 0;
+		opacity: 1;
+	}
+}
+
+.floating-label-form-group-with-focus {
+	label {
+		color: @theme-primary;
+	}
+}
+
+form .row:first-child .floating-label-form-group {
+	border-top: 1px solid @gray-lighter;
+}
+
+// Button Styles
+
+.btn {
+	.sans-serif-font;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: 800;
+	letter-spacing: 1px;
+	border-radius: 0;
+	padding: 15px 25px;
+}
+
+.btn-lg {
+	font-size: 16px;
+	padding: 25px 35px;
+}
+
+.btn-default {
+	&:hover,
+	&:focus {
+		background-color: @theme-primary;
+		border: 1px solid @theme-primary;
+		color: white;
+	}
+}
+
+// Pager Styling (still deciding to use page or no)
+
+.pager {
+
+	margin: 20px 0 0;
+
+	li {
+		> a,
+		> span {
+			.sans-serif-font;
+			text-transform: uppercase;
+			font-size: 14px;
+			font-weight: 800;
+			letter-spacing: 1px;
+			padding: 15px 25px;
+			background-color: white;
+			border-radius: 0;
+		}
+
+		> a:hover,
+		> a:focus {
+			color: white;
+			background-color: @theme-primary;
+			border: 1px solid @theme-primary;
+		}
+	}
+
+	.disabled {
+		> a,
+		> a:hover,
+		> a:focus,
+		> span {
+			color: @gray-light;
+			background-color: @gray-dark;
+			cursor: not-allowed;
+		}
+	}
+}
+
+// Highlight Color Customization
+
+::-moz-selection {
+	color: white;
+	text-shadow: none;
+	background: @theme-primary;
+}
+
+::selection {
+	color: white;
+	text-shadow: none;
+	background: @theme-primary;
+}
+
+img::selection {
+	color: white;
+	background: transparent;
+}
+
+img::-moz-selection {
+	color: white;
+	background: transparent;
+}
+
+body {
+	-webkit-tap-highlight-color: @theme-primary;
+}
+
+#fountainG {
+  position: relative;
+  width: 108px;
+  height: 13px;
+  margin: 15px auto 5px; }
+
+.fountainG {
+  position: absolute;
+  top: 0;
+  background-color: #709deb;
+  width: 13px;
+  height: 13px;
+  animation-name: bounce_fountainG;
+  -o-animation-name: bounce_fountainG;
+  -ms-animation-name: bounce_fountainG;
+  -webkit-animation-name: bounce_fountainG;
+  -moz-animation-name: bounce_fountainG;
+  animation-duration: 0.905s;
+  -o-animation-duration: 0.905s;
+  -ms-animation-duration: 0.905s;
+  -webkit-animation-duration: 0.905s;
+  -moz-animation-duration: 0.905s;
+  animation-iteration-count: infinite;
+  -o-animation-iteration-count: infinite;
+  -ms-animation-iteration-count: infinite;
+  -webkit-animation-iteration-count: infinite;
+  -moz-animation-iteration-count: infinite;
+  animation-direction: normal;
+  -o-animation-direction: normal;
+  -ms-animation-direction: normal;
+  -webkit-animation-direction: normal;
+  -moz-animation-direction: normal;
+  transform: scale(0.3);
+  -o-transform: scale(0.3);
+  -ms-transform: scale(0.3);
+  -webkit-transform: scale(0.3);
+  -moz-transform: scale(0.3);
+  border-radius: 9px;
+  -o-border-radius: 9px;
+  -ms-border-radius: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px; }
+
+#fountainG_1 {
+  left: 0;
+  animation-delay: 0.366s;
+  -o-animation-delay: 0.366s;
+  -ms-animation-delay: 0.366s;
+  -webkit-animation-delay: 0.366s;
+  -moz-animation-delay: 0.366s; }
+
+#fountainG_2 {
+  left: 13px;
+  animation-delay: 0.4525s;
+  -o-animation-delay: 0.4525s;
+  -ms-animation-delay: 0.4525s;
+  -webkit-animation-delay: 0.4525s;
+  -moz-animation-delay: 0.4525s; }
+
+#fountainG_3 {
+  left: 27px;
+  animation-delay: 0.549s;
+  -o-animation-delay: 0.549s;
+  -ms-animation-delay: 0.549s;
+  -webkit-animation-delay: 0.549s;
+  -moz-animation-delay: 0.549s; }
+
+#fountainG_4 {
+  left: 40px;
+  animation-delay: 0.6355s;
+  -o-animation-delay: 0.6355s;
+  -ms-animation-delay: 0.6355s;
+  -webkit-animation-delay: 0.6355s;
+  -moz-animation-delay: 0.6355s; }
+
+#fountainG_5 {
+  left: 54px;
+  animation-delay: 0.732s;
+  -o-animation-delay: 0.732s;
+  -ms-animation-delay: 0.732s;
+  -webkit-animation-delay: 0.732s;
+  -moz-animation-delay: 0.732s; }
+
+#fountainG_6 {
+  left: 67px;
+  animation-delay: 0.8185s;
+  -o-animation-delay: 0.8185s;
+  -ms-animation-delay: 0.8185s;
+  -webkit-animation-delay: 0.8185s;
+  -moz-animation-delay: 0.8185s; }
+
+#fountainG_7 {
+  left: 81px;
+  animation-delay: 0.905s;
+  -o-animation-delay: 0.905s;
+  -ms-animation-delay: 0.905s;
+  -webkit-animation-delay: 0.905s;
+  -moz-animation-delay: 0.905s; }
+
+#fountainG_8 {
+  left: 94px;
+  animation-delay: 1.0015s;
+  -o-animation-delay: 1.0015s;
+  -ms-animation-delay: 1.0015s;
+  -webkit-animation-delay: 1.0015s;
+  -moz-animation-delay: 1.0015s; }
+
+@keyframes bounce_fountainG {
+  0% {
+    transform: scale(1);
+    background-color: #8797e8; }
+  100% {
+    transform: scale(0.3);
+    background-color: white; } }
+
+@-o-keyframes bounce_fountainG {
+  0% {
+    -o-transform: scale(1);
+    background-color: #8797e8; }
+  100% {
+    -o-transform: scale(0.3);
+    background-color: white; } }
+
+@-ms-keyframes bounce_fountainG {
+  0% {
+    -ms-transform: scale(1);
+    background-color: #8797e8; }
+  100% {
+    -ms-transform: scale(0.3);
+    background-color: white; } }
+
+@-webkit-keyframes bounce_fountainG {
+  0% {
+    -webkit-transform: scale(1);
+    background-color: #8797e8; }
+  100% {
+    -webkit-transform: scale(0.3);
+    background-color: white; } }
+
+@-moz-keyframes bounce_fountainG {
+  0% {
+    -moz-transform: scale(1);
+    background-color: #8797e8; }
+  100% {
+    -moz-transform: scale(0.3);
+    background-color: white; } }

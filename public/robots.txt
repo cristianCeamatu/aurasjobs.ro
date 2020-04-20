@@ -1,0 +1,6 @@
+User-agent: *
+Disallow:
+
+#Begin Attracta SEO Tools Sitemap. Do not remove
+sitemap: http://cdn.attracta.com/sitemap/5496581.xml.gz
+#End Attracta SEO Tools Sitemap. Do not remove
