@@ -1,4 +1,20 @@
 // Application Form Scripts
+! function(a) {
+    "use strict";
+    a(document).on("click", "a.page-scroll", function(t) {
+      var e = a(this);
+      a("html, body").stop().animate({
+        scrollTop: a(e.attr("href")).offset().top - 54
+      }, 1250, "easeInOutExpo"), t.preventDefault()
+    }), a("body").scrollspy({
+      target: "#mainNav",
+      offset: 54
+    }), a(".navbar-collapse>ul>li>a").click(function() {
+      a(".navbar-collapse").collapse("hide")
+    }), a(window).scroll(function() {
+      a("#mainNav").offset().top > 100 ? a("#mainNav").addClass("navbar-shrink") : a("#mainNav").removeClass("navbar-shrink")
+    })
+  }(jQuery)
 
 $(function() {
     $("#applyForm input,#applyForm textarea").jqBootstrapValidation({
