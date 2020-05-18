@@ -1,4 +1,4 @@
-const { mix } = require('laravel-mix');
+const mix = require('laravel-mix');
 
 /*
  |--------------------------------------------------------------------------
@@ -11,5 +11,6 @@ const { mix } = require('laravel-mix');
  |
  */
 
-mix.js('public/js/agency.js', 'public/js')
-   .sass('public/scss/agency.scss', 'public/css');
+mix.sass('resources/assets/sass/agency.scss', 'public/css')
+    .js('resources/assets/js/agency.js', 'public/js/agency.js')
+    .browserSync('127.0.0.1:8000');
