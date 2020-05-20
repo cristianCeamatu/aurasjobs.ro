@@ -18,6 +18,9 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
+    {{-- Used in the header --}}
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+
     @include ('welcome.layouts.header')
     @include ('welcome.layouts.about')
     @include ('welcome.layouts.proccess')

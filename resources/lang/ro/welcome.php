@@ -22,8 +22,13 @@ return [
     | The following language lines contain the romanian translation of the Jumbotron headings.
     | Using jumbotron from the header section.
     */
-    'jumbotron_title' => 'LOCURI DE MUNCA VASE DE CROAZIERA',
-    'jumbotron_subtitle' => 'AGENTIE DE RECRUTARE',
+    'jumbotron_title' => 'Locuri de munca',
+    'jumbotron_subtitle' => '
+        <h3>Vase de croaziera</h3>
+        <h3>Hoteluri in Cipru</h3>
+        <h3>Hoteluri in Germania</h3>
+        <h3>Agricultura</h3>
+    ',
     /*
     |--------------------------------------------------------------------------
     | About us section

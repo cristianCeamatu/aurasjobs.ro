@@ -22,8 +22,13 @@ return [
     | The following language lines contain the romanian translation of the Jumbotron headings.
     | Using jumbotron from the header section.
     */
-    'jumbotron_title' => 'RIVER CRUISE SHIP JOBS',
-    'jumbotron_subtitle' => 'RECRUITING AGENCY',
+    'jumbotron_title' => 'We offer jobs for',
+    'jumbotron_subtitle' => '
+        <h3>River Cruise ships</h3>
+        <h3>Hotels in Cyprus</h3>
+        <h3>Hotels in Germany</h3>
+        <h3>Agriculture</h3>
+    ',
     /*
     |--------------------------------------------------------------------------
     | About us section

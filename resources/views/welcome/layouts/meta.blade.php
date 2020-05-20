@@ -112,11 +112,6 @@
     <link rel="alternate" hreflang="ro" href="https://www.aurasjobs.ro" />
     <title>Locuri de munca / Joburi / Angajari vase de croaziera fara comision</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- Additional fonts for this theme -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Kaushan+Script|Droid+Serif:400,700,400italic,700italic|Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this theme -->
