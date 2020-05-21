@@ -48,6 +48,6 @@
         var url = '{{ route('contact') }}';
         var applyUrl = '{{ route('apply') }}';
     </script>
-    <script src="js/agency.js"></script>
+    <script src="/js/agency.js"></script>
 	</body>
 </html>

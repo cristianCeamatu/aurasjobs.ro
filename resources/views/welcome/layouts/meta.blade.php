@@ -115,7 +115,7 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Kaushan+Script|Droid+Serif:400,700,400italic,700italic|Roboto+Slab:400,100,300,700" rel="stylesheet" type="text/css">
 
     <!-- Custom styles for this theme -->
-    <link href="css/agency.css" rel="stylesheet">
+    <link href="/css/agency.css" rel="stylesheet">
 
     <!-- Temporary navbar container fix until Bootstrap 4 is patched -->
     <style>.navbar-toggler{z-index:1}@media (max-width:576px){nav>.container{width:100%}}</style>
