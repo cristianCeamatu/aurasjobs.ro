@@ -35,19 +35,19 @@
     <div class="fb-like" data-href="https://www.facebook.com/aurasjobs.ro" data-width="300" data-layout="standard" data-action="like" data-size="small" data-show-faces="false" data-share="true"></div>
     </div>
     <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/tether/tether.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="/public/vendor/jquery/jquery.min.js"></script>
+    <script src="/public/vendor/tether/tether.min.js"></script>
+    <script src="/public/vendor/bootstrap/js/bootstrap.min.js"></script>
     <!-- Plugin JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
     <!-- Contact form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="/public/js/jqBootstrapValidation.js"></script>
     <!-- Custom JavaScript for this theme -->
     <script>
         var token = '{{ Session::token() }}';
         var url = '{{ route('contact') }}';
         var applyUrl = '{{ route('apply') }}';
     </script>
-    <script src="/js/agency.js"></script>
+    <script src="/public/js/agency.js"></script>
 	</body>
 </html>
