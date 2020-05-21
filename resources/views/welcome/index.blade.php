@@ -23,8 +23,8 @@
 
     @include ('welcome.layouts.header')
     @include ('welcome.layouts.about')
-    @include ('welcome.layouts.proccess')
     @include ('welcome.layouts.jobs')
+    @include ('welcome.layouts.proccess')
     @include ('welcome.layouts.apply')
     @include ('welcome.layouts.partners')
     @include ('welcome.layouts.contact')

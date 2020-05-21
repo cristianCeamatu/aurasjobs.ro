@@ -31,6 +31,11 @@ a.active {
   color: #3bbbb5;
 }
 
+ul {
+  padding: 0;
+  margin: 0;
+}
+
 h1,
 h2,
 h3,
@@ -40,6 +45,13 @@ h6 {
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
+}
+
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn:active:focus {
+  outline: none;
 }
 
 .btn-primary {
@@ -119,7 +131,7 @@ fieldset[disabled] .btn-primary.focus {
   font-weight: 700;
   border-radius: 3px;
   font-size: 16px;
-  padding: 8px 16px;
+  padding: 5px 15px;
   text-shadow: none;
   text-transform: none;
   border-width: 2px;
@@ -190,15 +202,15 @@ fieldset[disabled] .btn-xl.focus {
 }
 
 #mainNav .navbar-toggler {
-  border: 0;
-  margin-top: 5px;
+  border: 2px solid #5dccc7;
+  color: #5dccc7;
+  font-weight: bold;
+  margin-top: 10px;
   outline: none;
-  color: white;
-  background-color: #5dccc7;
   font-size: 12px;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
-  padding: 13px;
+  padding: 8px;
 }
 
 #mainNav .container .navbar-brand {
@@ -274,7 +286,7 @@ fieldset[disabled] .btn-xl.focus {
 }
 
 header {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(/images/home-bg2.jpg?b1d3bf9f33637726f71321bb7bbdc209);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(/images/logo995x475.jpg?3d8e0be1c1b28e22983e84e3af882cb5);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -429,7 +441,7 @@ header .intro-text .header-contact {
 }
 
 section {
-  padding: 45px 0;
+  padding: 60px 0;
 }
 
 section h2.section-heading {
@@ -453,21 +465,40 @@ section h3.section-subheading {
   }
 }
 
-.service-heading {
-  margin: 15px 0;
+.team-member {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.team-member img {
+  height: 225px;
+  width: 225px;
+  border: 7px solid white;
+}
+
+.team-member h4 {
+  margin-top: 25px;
+  margin-bottom: 0;
   text-transform: none;
+}
+
+.team-member p {
+  margin-top: 0;
+}
+
+#jobs {
+  padding: 0;
 }
 
 #jobs .portfolio-item {
   margin: 0 0 15px;
-  right: 0;
 }
 
 #jobs .portfolio-item .portfolio-link {
   display: block;
   position: relative;
   max-width: 400px;
-  margin: 0 auto;
+  margin: 0 20px;
 }
 
 #jobs .portfolio-item .portfolio-link .portfolio-hover {
@@ -551,6 +582,15 @@ section h3.section-subheading {
 
 #apply .applicationForm textarea {
   height: 9rem;
+}
+
+.service-heading {
+  margin: 15px 0;
+  text-transform: none;
+}
+
+#applicationProcess {
+  margin-top: 60px;
 }
 
 .timeline {
@@ -753,27 +793,6 @@ section h3.section-subheading {
   }
 }
 
-.team-member {
-  text-align: center;
-  margin-bottom: 50px;
-}
-
-.team-member img {
-  height: 225px;
-  width: 225px;
-  border: 7px solid white;
-}
-
-.team-member h4 {
-  margin-top: 25px;
-  margin-bottom: 0;
-  text-transform: none;
-}
-
-.team-member p {
-  margin-top: 0;
-}
-
 .applyForm textarea {
   height: 7.3em;
 }
@@ -877,6 +896,7 @@ footer ul.quicklinks {
 
 ul.social-buttons {
   margin-bottom: 0;
+  border: 1px solid red !important;
 }
 
 ul.social-buttons li a {
@@ -896,13 +916,6 @@ ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
   background-color: #5dccc7;
-}
-
-.btn:focus,
-.btn:active,
-.btn.active,
-.btn:active:focus {
-  outline: none;
 }
 
 .portfolio-modal .modal-dialog {
@@ -943,9 +956,8 @@ ul.social-buttons li a:active {
   font-weight: bold;
   padding: 0.3125em;
   text-align: left;
-  font-style: italic;
   color: #A3A3A3;
-  border-bottom: 1px solid #A3A3A3;
+  border-bottom: 1px solid #777777;
 }
 
 .portfolio-modal .modal-content .modal-body ul li span {

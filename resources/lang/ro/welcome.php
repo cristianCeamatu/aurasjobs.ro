@@ -10,8 +10,8 @@ return [
     |
     */
     'about' => 'Despre',
-    'journey' => 'Informatii',
     'jobs' => 'Joburi',
+    'journey' => 'Etape aplicatie',
     'apply' => 'Aplica',
     'about_us' => 'Despre noi',
     /*
@@ -50,36 +50,26 @@ return [
     |
     */
     'about_heading' => 'Echipa noastra',
-    'about_subheading' => '',
-    'team_member1' => '
-    <p class="text-muted">Fondator/Administrator</p>
-    <p>Dl. Auras recruteaza personal de aprox. 8 ani, gata sa ajute oricand cu experienta acumulata, va sta la dispozitie pentru orice informatie. Foarte activ in procesul de recrutare, se ocupa si de partea contabila a companiei.</p>',
-    'team_member2' => '
-        <p class="text-muted">Recrutor/Manager</p>
-        <p>Andreea este inima companiei noastre, mereu zambitoare si gata sa va raspunda la toate intrebarile. A lucrat timp de 3-4 ani pe vase de croaziera ocean si fluviale, avand cunostinte despre munca pe vase si procesul de recrutare in general, Andreea va face tot posibilul pentru a-ti face angajarea un success. Ea se ocupa si de social media.</p>',
-    'team_member3' => '
-        <p class="text-muted">Recrutor/Manager Contracte</p>
-        <p>Avand o experienta similara in domeniu, Cristian ajuta la procesul de recrutare. El este, de asemenea, administratorul site-ului aurasjobs.ro</p>',
     'about_footer' => 'Ne puteti contacta pentru orice informatie',
     /*
     |--------------------------------------------------------------------------
-    | Journey section
+    | Application process section
     |--------------------------------------------------------------------------
     |
-    | The following language lines contain the romanian translation of the journey elements.
+    | The following language lines contain the romanian translation of the application process elements.
     |
     */
     'journey_heading' => 'Aplica!',
     'journey_subheading' => 'Nu exista nici un cost si vom face tot posibilul sa gasim cele mai bune oferte pentru tine.',
     'journey_member1' => '
-        <h4 class="service-heading">Fara engleza sau experienta</h4>
-        <p class="text-muted">Chiar daca nu aveti experienta sau cunostinte de limba engleza, trebuie doar atitudinea corecta (pozitivi si muncitori) pentru a obtine un loc de munca. Aplicati!</p>',
+        <h4 class="service-heading">Fara taxe sau comisioane</h4>
+        <p class="text-muted">Toate serviciile noastre sunt gratuite, fara costuri ascunse sau surprize neplacute. Obiectivul nostru este sa va gasim un loc de munca unde puteti finaliza cu succes contractele primite.</p>',
     'journey_member2' => '
-        <h4 class="service-heading">Doar engleza sau experienta</h4>
-        <p class="text-muted">Nu va fie teama daca nu sunteti pe deplin calificati, stim cum sa evidentiam calitatile in fata angajatorilor.</p>',
+        <h4 class="service-heading">Asistenta 24/7</h4>
+        <p class="text-muted">Oferim asistenta la initierea aplicatiei si pe toata perioada angajarii. Ne puteti contacta la orice ora in cazul unei situatii de urgenta.</p>',
     'journey_member3' => '
-        <h4 class="service-heading">Vreau sa vad oferte</h4>
-        <p class="text-muted">Sunteti bine pregatiti, poate aveti deja experienta locurilor de munca pe vase de croaziera. Vom incerca sa obtinem cele mai bune oferte!</p>',
+        <h4 class="service-heading">Feedback</h4>
+        <p class="text-muted">Datorita experientei in domeniu va putem oferi un feedback corect si onest legat de conditiile fiecarui loc de munca pe care il actualizam in permanenta prin intermediul persoanelor angajate.</p>',
     'journey_processHeading' => 'Procesul de aplicare',
     'journey_processSubheading' => 'De la primul contact pana la prima zi de lucru',
     'journey_process1' => '
@@ -142,7 +132,7 @@ return [
     */
     'jobs_heading' => '
         <h2 class="section-heading">Oferte joburi</h2>
-        <h3 class="section-subheading text-muted">Ofertele de mai jos sunt posibile pachete pe care le puteti primi. Click pentru a mari</h3>',
+        <h3 class="section-subheading text-muted">Ofertele de mai jos sunt posibile pachete pe care le puteti primi, click pe poza pentru detalii</h3>',
     'jobs_offerSubheading' => 'Locuri de munca vase de croaziera',
     'jobs_offerHotelLandJobs' => 'Locuri de munca Hoteluri',
     'jobs_carnivalSubheading' => 'Interviu ospatari ianuarie 2018',
@@ -173,7 +163,7 @@ return [
         <a href="mailto:&#111;&#102;&#102;&#105;&#099;&#101;&#064;&#097;&#117;&#114;&#097;&#115;&#106;&#111;&#098;&#115;&#046;&#114;&#111;">
             <i class="fa fa-4x fa-envelope text-primary sr-icons"></i>
             <h3>Prin email</h3>
-            <p class="text-muted">Trimite CVul tau la &#111;&#102;&#102;&#105;&#099;&#101;&#064;&#097;&#117;&#114;&#097;&#115;&#106;&#111;&#098;&#115;&#046;&#114;&#111; si asteapta sa fii contactat.</p>
+            <p class="text-muted">Daca ai un CV redactat il poti trimite la &#111;&#102;&#102;&#105;&#099;&#101;&#064;&#097;&#117;&#114;&#097;&#115;&#106;&#111;&#098;&#115;&#046;&#114;&#111;. Daca nu te sunam in cateva zile te rugam sa ne suni la unul din numerele de contact.</p>
         </a>',
     /*
     |--------------------------------------------------------------------------
