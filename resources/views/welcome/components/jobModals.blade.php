@@ -16,7 +16,6 @@
                         <div class="modal-body">
                             <!-- Job Details Go Here -->
                             <h2>Cruisinc Creative Catering</h2>
-                            <p class="item-intro text-danger">@lang('welcome.jobs_offerSubheading')</p>
                             <img class="img-fluid d-block mx-auto" src="img/jobs/cruisinc-full.png" alt="Cruisinc big logo">
                             @lang('welcome.jobs_modal1')
                             <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> @lang('welcome.jobs_modalButton')</button>
@@ -44,7 +43,6 @@
                         <div class="modal-body">
                             <!-- Job Details Go Here -->
                             <h2>River Advice Cruises</h2>
-                            <p class="item-intro text-danger">@lang('welcome.jobs_offerSubheading')</p>
                             <img class="img-fluid d-block mx-auto" src="img/jobs/riveradvice-full.jpg" alt="River Advice Cruise ship restaurant photo">
                             @lang('welcome.jobs_modal2')
                             <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> @lang('welcome.jobs_modalButton')</button>
@@ -72,7 +70,6 @@
                         <div class="modal-body">
                             <!-- Job Details Go Here -->
                             <h2 style="font-size: 18px;">Cursuri de bucatari/ospatari <br /> cu angajare pe vase de croaziera</h2>
-                            <p class="item-intro text-danger">@lang('welcome.jobs_offerSubheading')</p>
                             <img class="img-fluid d-block mx-auto" src="img/jobs/scoalabucatari-full.jpg" alt="Cursuri de bucatar">
                             <ul>
 					            <li class="jobSubtitle">Informatii generale<li>
@@ -116,7 +113,6 @@
                             <br />
                                 Edelweiss Gastro
                             </h2>
-                            <p class="item-intro text-danger">@lang('welcome.jobs_offerSubheading')</p>
                             <img class="img-fluid d-block mx-auto" src="img/jobs/scylla-full.jpg" alt="Scylla/Edelweiss Logo">
                             @lang('welcome.jobs_modal4')
                             <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> @lang('welcome.jobs_modalButton')</button>
@@ -144,7 +140,6 @@
                         <div class="modal-body">
                             <!-- Job Details Go Here -->
                             <h2>Anqor River Cruises</h2>
-                            <p class="item-intro text-danger">@lang('welcome.jobs_offerSubheading')</p>
                             <img class="img-fluid d-block mx-auto" src="img/jobs/anqor-full.jpg" alt="Anqor logo with mixed photos from the ships">
                             @lang('welcome.jobs_modal5')
                             <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> @lang('welcome.jobs_modalButton')</button>
@@ -172,7 +167,6 @@
                         <div class="modal-body">
                             <!-- Job Details Go Here -->
                             <h2>CBH Cyprus</h2>
-                            <p class="item-intro text-danger">@lang('welcome.jobs_offerHotelLandJobs')</p>
                             <img class="img-fluid d-block mx-auto" src="img/jobs/constantinou-full.jpg" alt="Restaurant on the beach">
                             @lang('welcome.jobs_modal6')
                             <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fa fa-times"></i> @lang('welcome.jobs_modalButton')</button>

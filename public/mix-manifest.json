@@ -1,4 +1,5 @@
 {
     "/js/agency.js": "/js/agency.js",
-    "/css/agency.css": "/css/agency.css"
+    "/css/agency.css": "/css/agency.css",
+    "/css/agency.min.css": "/css/agency.min.css"
 }

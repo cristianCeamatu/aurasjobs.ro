@@ -15,10 +15,10 @@
                         </div>
                     </div>
                     <img src="img/jobs/cruisinc-thumbnail.png" class="img-fluid" alt="">
+                    <p class="bg-info">@lang('welcome.jobs_offerSubheading')</p>
                 </a>
                 <div class="portfolio-caption">
                     <h4>Cruisinc Creative Catering</h4>
-                    <p class="text-muted text-danger">@lang('welcome.jobs_offerSubheading')</p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6 portfolio-item">
@@ -29,10 +29,10 @@
                         </div>
                     </div>
                     <img src="img/jobs/riveradvice-thumbnail.png" class="img-fluid" alt="River Advice River Cruises Logo">
+                    <p class="bg-info">@lang('welcome.jobs_offerSubheading')</p>
                 </a>
                 <div class="portfolio-caption">
-                    <h4>River Advice Cruises</h4>
-                    <p class="text-muted text-danger">@lang('welcome.jobs_offerSubheading')</p>
+                    <h4 class="text-center">River Advice Cruises</h4>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6 portfolio-item">
@@ -43,10 +43,10 @@
                         </div>
                     </div>
                     <img src="img/jobs/scoalabucatari-thumbnail.jpg" class="img-fluid" alt="">
+                    <p class="bg-danger">@lang('welcome.jobs_offerCourses')</p>
                 </a>
                 <div class="portfolio-caption">
                     <h4>Cursuri bucatari/ospatari</h4>
-                    <p class="text-muted text-danger">@lang('welcome.jobs_offerSubheading')</p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6 portfolio-item">
@@ -57,10 +57,10 @@
                         </div>
                     </div>
                     <img src="img/jobs/scylla-thumbnail.jpg" class="img-fluid" alt="">
+                    <p class="bg-info">@lang('welcome.jobs_offerSubheading')</p>
                 </a>
                 <div class="portfolio-caption">
                     <h4>Scylla/Edelweiss Gastro</h4>
-                    <p class="text-muted text-danger">@lang('welcome.jobs_offerSubheading')</p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6 portfolio-item">
@@ -71,10 +71,10 @@
                         </div>
                     </div>
                     <img src="img/jobs/anqor-thumbnail.jpg" class="img-fluid" alt="Anqor River Cruises Logo">
+                    <p class="bg-info">@lang('welcome.jobs_offerSubheading')</p>
                 </a>
                 <div class="portfolio-caption">
                     <h4>Anqor River Cruises</h4>
-                    <p class="text-muted text-danger">@lang('welcome.jobs_offerSubheading')</p>
                 </div>
             </div>
             <div class="col-md-4 col-sm-6 portfolio-item">
@@ -85,10 +85,10 @@
                         </div>
                     </div>
                     <img src="img/jobs/constantinou-thumbnail.jpg" class="img-fluid" alt="Constantinou Bros Hotels Logo">
+                    <p class="bg-success">@lang('welcome.jobs_offerHotelLandJobs')</p>
                 </a>
                 <div class="portfolio-caption">
-                    <h4>Cyprus Hotels</h4>
-                    <p class="text-muted text-danger">@lang('welcome.jobs_offerHotelLandJobs')</p>
+                    <h4>Cyprus Hotels</h4>    
                 </div>
             </div>
         </div>

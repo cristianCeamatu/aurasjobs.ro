@@ -51,26 +51,26 @@
                     </li>
                     <li class="timeline-inverted">
                         <div class="timeline-image">
-                            <img class="rounded-circle img-fluid" src="img/about/about2.jpg" alt="Handshake">
-                        </div>
-                        <div class="timeline-panel">
-                        @lang('welcome.journey_process2')
-                        </div>
-                    </li>
-                    <li>
-                        <div class="timeline-image">
                             <img class="rounded-circle img-fluid" src="img/about/about3.jpg" alt="People waiting for live one to one interview">
                         </div>
                         <div class="timeline-panel">
                         @lang('welcome.journey_process3')
                         </div>
                     </li>
-                    <li class="timeline-inverted">
+                    <li>
                         <div class="timeline-image">
                             <img class="rounded-circle img-fluid" src="img/about/about4.jpg" alt="Happy person">
                         </div>
                         <div class="timeline-panel">
                         @lang('welcome.journey_process4')
+                        </div>
+                    </li>
+                    <li class="timeline-inverted">
+                        <div class="timeline-image">
+                            <img class="rounded-circle img-fluid" src="img/about/about2.jpg" alt="Handshake">
+                        </div>
+                        <div class="timeline-panel">
+                        @lang('welcome.journey_process2')
                         </div>
                     </li>
                     <li>
