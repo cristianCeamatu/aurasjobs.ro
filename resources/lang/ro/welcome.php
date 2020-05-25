@@ -14,6 +14,7 @@ return [
     'journey' => 'Etape aplicatie',
     'apply' => 'Aplica',
     'about_us' => 'Despre noi',
+    'location' => 'Locatie',
     /*
     |--------------------------------------------------------------------------
     | Jumbotron
@@ -78,8 +79,7 @@ return [
             <h4 class="subheading">Pre-interviu</h4>
         </div>
         <div class="timeline-body">
-            <p class="text-muted">Trimiteti CV-ul dvs., aplicati online sau contactati-ne, trebuie sa avem o conversatie telefonica pentru a va cunoaste mai bine si a planifica toate detaliile
-            </p>
+            <p class="text-muted">Aplicati pe site, trimiteti CV-ul pe email sau contactati-ne, trebuie sa avem o conversatie telefonica pentru a va cunoaste mai bine si a planifica toate detaliile</p>
         </div>',
     'journey_process2' => '
         <div class="timeline-heading">
@@ -87,8 +87,7 @@ return [
             <h4 class="subheading">Initierea aplicatiei</h4>
         </div>
         <div class="timeline-body">
-            <p class="text-muted">In urma conversatiei telefonice, ne intalnim sau va trimitem prin e-mail contractul nostru de colaborare. Cand primim contractul semnat, putem incepe procesul de aplicare
-            </p>
+            <p class="text-muted">Dupa ce acceptati oferta, va trimitem prin email contractul nostru de mediere (fara taxe sau comisioane) impreuna cu documentele necesare pentru angajator, acestea le putem completa impreuna la sediul nostru sau le puteti trimite prin email.</p>
         </div>',
     'journey_process3' => '
         <div class="timeline-heading">
@@ -96,8 +95,7 @@ return [
             <h4 class="subheading">Pregatirea interviului</h4>
         </div>
         <div class="timeline-body">
-            <p class="text-muted">Va ajutam sa modificati CV-ul (in cazul in care este necesar) subliniind ceea ce este important pentru angajatori si pregatim impreuna toate detaliile pentru interviu. Prezentam aplicatia finala partenerilor nostri
-            </p>
+            <p class="text-muted">Va ajutam la pregatirea CV-ului (in cazul in care este necesar) si va oferim toate detaliile pentru interviu. Prezentam aplicatia finala partenerilor nostri</p>
         </div>',
     'journey_process4' => '
         <div class="timeline-heading">
@@ -105,17 +103,15 @@ return [
             <h4 class="subheading">Primirea ofertelor</h4>
         </div>
         <div class="timeline-body">
-            <p class="text-muted">Veti incepe sa primiti oferte. Scopul nostru este de a le alege pe cele mai potrivite pentru dvs. Doar o conversatie telefonica prietenoasa va poate aduce un contract de angajare. Uneori, in functie de nevoile partenerilor nostri, puteti fi invitat la un interviu live sau Skype
-            </p>
+            <p class="text-muted">Veti fi contactat pentru interviu in urma caruia veti primi oferta de angajare. Scopul nostru este de a alege cele mai potrivite oferte pentru dvs in functie de experienta in domeniu. O simpla conversatie telefonica va poate aduce un contract de angajare.</p>
         </div>',
     'journey_process5' => '
         <div class="timeline-heading">
-            <h4>Gata de imbarcare!</h4>
-            <h4 class="subheading">Incheierea contractului</h4>
+            <h4>Gata de drum!</h4>
+            <h4 class="subheading">Inceperea contractului</h4>
         </div>
         <div class="timeline-body">
-            <p class="text-muted">Dupa ce semnati contractul care asigura locul de munca, rezervati biletul de avion (uneori, in functie de necesitati, compania va plati biletul sau va rambursa costul cand ajungeti pe nava) si va pregatiti pentru imbarcare.
-            </p>
+            <p class="text-muted">Dupa finalizarea documentelor pregatim detaliile legate de transport. In functie de companie, transportul poate fi asigurat sau decontat de catre angajator.</p>
         </div>',
     'journey_processFooter' => '
         <h4>Va uram
@@ -133,9 +129,10 @@ return [
     'jobs_heading' => '
         <h2 class="section-heading">Oferte joburi</h2>
         <h3 class="section-subheading text-muted">Ofertele de mai jos sunt posibile pachete pe care le puteti primi, click pe poza pentru detalii</h3>',
-    'jobs_offerSubheading' => 'Locuri de munca vase de croaziera',
-    'jobs_offerHotelLandJobs' => 'Locuri de munca Hoteluri',
-    'jobs_carnivalSubheading' => 'Interviu ospatari ianuarie 2018',
+    'jobs_offerSubheading' => 'Vase Croaziera',
+    'jobs_offerHotelLandJobs' => 'Hoteluri',
+    'jobs_offerCourses' => 'Cursuri perfectionare',
+    // 'jobs_carnivalSubheading' => 'Interviu ospatari ianuarie 2018',
     /*
     |--------------------------------------------------------------------------
     | Apply section
@@ -146,25 +143,25 @@ return [
     */
     'apply_heading' => '
         <h2 class="section-heading">Cum poti aplica</h2>
-        <h3 class="section-subheading text-muted">Inainte de inceperea aplicatiei te rugam sa verifici <a href="#applicationProcess" class="page-scroll"><strong>procesul de aplicare</strong></a></h3>',
+        <h3 class="section-subheading text-muted">Inainte de inceperea aplicatiei iti recomandam sa verifici <a href="#applicationProcess" class="page-scroll"><strong>procesul de aplicare</strong></a></h3>',
     'apply_member1' => '
-        <a href="#applyForm" class="page-scroll">
-            <i class="fa fa-4x fa-cloud-upload text-primary sr-icons"></i>
-            <h3>Aplica online</h3>
-        </a>
-        <p class="text-muted">Uploadeaza CV-ul tau sau formularul de aplicare rapida de mai jos alaturi de o copie dupa buletin sau pasaport pentru accelerarea procesului</p>',
+    <a href="mailto:&#111;&#102;&#102;&#105;&#099;&#101;&#064;&#097;&#117;&#114;&#097;&#115;&#106;&#111;&#098;&#115;&#046;&#114;&#111;">
+        <i class="fa fa-4x fa-envelope text-primary sr-icons"></i>
+        <h3>Prin email</h3>
+        <p class="text-muted">Daca ai un CV redactat il poti trimite la &#111;&#102;&#102;&#105;&#099;&#101;&#064;&#097;&#117;&#114;&#097;&#115;&#106;&#111;&#098;&#115;&#046;&#114;&#111;. Daca nu te contactam in cateva zile te rugam sa ne suni la unul din numerele de contact.</p>
+    </a>',
     'apply_member2' => '
-        <a href="tel:0040728683604">
-            <i class="fa fa-4x fa-phone text-primary sr-icons"></i>
-            <h3>Telefonic</h3>
-            <p class="text-muted">0728 683604 / 0730 719323 / 0725085231 Cea mai rapida cale de a gasi raspunsuri la intrebarile tale si de a stabili toate detaliile aplicatiei</p>
-        </a>',
+    <a href="tel:0040728683604">
+        <i class="fa fa-4x fa-phone text-primary sr-icons"></i>
+        <h3>Telefonic</h3>
+        <p class="text-muted"> 0725085231 / 0730 719323 / 0728 683604 Cea mai rapida cale de a gasi raspunsuri la intrebarile tale si de a stabili toate detaliile aplicatiei</p>
+    </a>',
     'apply_member3' => '
-        <a href="mailto:&#111;&#102;&#102;&#105;&#099;&#101;&#064;&#097;&#117;&#114;&#097;&#115;&#106;&#111;&#098;&#115;&#046;&#114;&#111;">
-            <i class="fa fa-4x fa-envelope text-primary sr-icons"></i>
-            <h3>Prin email</h3>
-            <p class="text-muted">Daca ai un CV redactat il poti trimite la &#111;&#102;&#102;&#105;&#099;&#101;&#064;&#097;&#117;&#114;&#097;&#115;&#106;&#111;&#098;&#115;&#046;&#114;&#111;. Daca nu te sunam in cateva zile te rugam sa ne suni la unul din numerele de contact.</p>
-        </a>',
+    <a href="#applyForm" class="page-scroll">
+        <i class="fa fa-4x fa-cloud-upload text-primary sr-icons"></i>
+        <h3>Aplica online</h3>
+    </a>
+    <p class="text-muted">Uploadeaza CV-ul tau sau formularul de aplicare rapida de mai jos alaturi de o copie dupa buletin sau pasaport pentru accelerarea procesului</p>',
     /*
     |--------------------------------------------------------------------------
     | Apply Form section
@@ -174,10 +171,10 @@ return [
     |
     */
     'applyForm_heading' => '
-        <h2 class="text-center text-primary">Formular aplicare online</h2>
+        <h2 class="text-center">Aplica online</h2>
         <p class="text-center text-muted">Campurile cu * sunt obligatorii</p>',
-    'applyForm_link1' => 'Download formular de aplicare (model cv EN)',
-    'applyForm_link2' => 'Download Contract Consultanta',
+    'applyForm_link1' => 'Formular aplicare online',
+    'applyForm_link2' => 'Exemplu formular completat',
     'applyForm_name' => 'Numele *',
     'applyForm_email' => 'Adresa de email *',
     'applyForm_phone' => 'Numar de telefon *',
@@ -196,7 +193,6 @@ return [
     |
     */
     'partners_heading' => 'Partenerii nostrii',
-    'partners_subheading' => 'Vrei pagina ta aici?',
     /*
     |--------------------------------------------------------------------------
     | Contact Form section

@@ -14,6 +14,7 @@ return [
     'jobs' => 'Jobs',
     'apply' => 'Apply',
     'about_us' => 'About us',
+    'location' => 'Location',
     /*
     |--------------------------------------------------------------------------
     | Jumbotron
@@ -72,14 +73,14 @@ return [
     'journey_heading' => 'Just apply!',
     'journey_subheading' => 'There is no cost and we will do our best to find suited job offers for you',
     'journey_member1' => '
-        <h4 class="service-heading">No english/experience</h4>
-        <p class="text-muted">Even if you don`t have experience or English skills, you just need the right attitude (be positive and hardworking) to get a job. Just apply!</p>',
+        <h4 class="service-heading">No taxes or fees</h4>
+        <p class="text-muted">All our services are free of charge, without hidden fees or unpleasant surprises. Our objective is to find you a job where you can successfully finish the contract.</p>',
     'journey_member2' => '
-        <h4 class="service-heading">Only english or experience</h4>
-        <p class="text-muted">Don`t be afraid if you are not fully qualified, we know how to show the best of you to the employers</p>',
+        <h4 class="service-heading">24/7 Support</h4>
+        <p class="text-muted">We offer assistance from the initiation of the application process until you finish your contract. You can contact us at any hour in case of an emergency.</p>',
     'journey_member3' => '
-        <h4 class="service-heading">Send me the offers</h4>
-        <p class="text-muted">You are well prepared, maybe you already have cruise jobs experience. We will find the best offers for you.</p>',
+        <h4 class="service-heading">Feedback</h4>
+        <p class="text-muted">Thanks to our experience in the field, we can offer you correct and honest feedback related to the conditions of each job that we constantly update through the new employee recommendations.</p>',
     'journey_processHeading' => 'Application process',
     'journey_processSubheading' => 'From our first contact to your first working day',
     'journey_process1' => '
@@ -88,8 +89,7 @@ return [
             <h4 class="subheading">Pre-interview</h4>
         </div>
         <div class="timeline-body">
-            <p class="text-muted">Send us your CV, apply online or contact us, we need to have a phone conversation to know each other better and plan all the details
-            </p>
+            <p class="text-muted">Send us your CV, apply online or contact us, we need to have a phone conversation to know each other better and plan all the details.</p>
         </div>',
     'journey_process2' => '
         <div class="timeline-heading">
@@ -97,8 +97,7 @@ return [
             <h4 class="subheading">Start the application</h4>
         </div>
         <div class="timeline-body">
-            <p class="text-muted">Following our phone conversation, we meet or we email you our collaboration contract. When we have the signed contract we can start the process
-            </p>
+            <p class="text-muted">After you accept the offer, we email you our collaboration contract (no taxes or fees) together with the documents required by the employer. You can visit our office to sign and fill them or you can send them by email.</p>
         </div>',
     'journey_process3' => '
         <div class="timeline-heading">
@@ -106,8 +105,7 @@ return [
             <h4 class="subheading">Making them choose you</h4>
         </div>
         <div class="timeline-body">
-            <p class="text-muted">We help to modify your CV, in case it is needed, highlighting what is important for the employers and prepare you for the interview. We show your final application to our partners
-            </p>
+            <p class="text-muted">We help to modify your CV, in case it is needed, and prepare you for the interview. We show your final application to our partners.</p>
         </div>',
     'journey_process4' => '
         <div class="timeline-heading">
@@ -115,8 +113,7 @@ return [
             <h4 class="subheading">Show me the offers</h4>
         </div>
         <div class="timeline-body">
-            <p class="text-muted">You will start receiving offers. Our goal is to find those best suited for you. Just a friendly phone conversation can get you an employment contract. Sometimes, depending on the needs of our partners, you could be invited for a live or Skype interview
-            </p>
+            <p class="text-muted">You will be contacted for the interview. Our goal is to find best offers suited for your experience. Just a friendly phone conversation can get you an employment contract.</p>
         </div>',
     'journey_process5' => '
         <div class="timeline-heading">
@@ -124,8 +121,7 @@ return [
             <h4 class="subheading">Getting employed</h4>
         </div>
         <div class="timeline-body">
-            <p class="text-muted">After you sign the employment contract securing the job, you book your flight ticket (sometimes, depending on the needs, the company will pay the ticket or they reimburse when you arrive on the ship) and prepare for your embarkation.
-            </p>
+            <p class="text-muted">After signing the documents and securing the job, we prepare the travel details. Depending on the company, the transport can be paid in advance by the employer or reimbursed after a few months of work.</p>
         </div>',
     'journey_processFooter' => '
         <h4>Have
@@ -143,9 +139,10 @@ return [
     'jobs_heading' => '
         <h2 class="section-heading">Job offers</h2>
         <h3 class="section-subheading text-muted">Offers below are part of the packages that you may receive. Click to enlarge</h3>',
-    'jobs_offerSubheading' => 'River Cruise Jobs',
-    'jobs_offerHotelLandJobs' => 'Hotel Land Jobs',
-    'jobs_carnivalSubheading' => 'Waiters interview January 2018',
+    'jobs_offerSubheading' => 'River Cruises',
+    'jobs_offerHotelLandJobs' => 'Hotels',
+    'jobs_offerCourses' => 'Trainings',
+    // 'jobs_carnivalSubheading' => 'Waiters interview January 2018',
     /*
     |--------------------------------------------------------------------------
     | Apply section
@@ -184,10 +181,10 @@ return [
     |
     */
     'applyForm_heading' => '
-        <h2 class="text-center text-primary">Fast Application Form</h2>
+        <h2 class="text-center">Fast Application Form</h2>
         <p class="text-center text-muted">The fields with * are mandatory</p>',
-    'applyForm_link1' => 'Download Application Form (EN cv model)',
-    'applyForm_link2' => 'Download Agreement',
+    'applyForm_link1' => 'Download application form',
+    'applyForm_link2' => 'Application form example',
     'applyForm_name' => 'Your Name *',
     'applyForm_email' => 'Your Email *',
     'applyForm_phone' => 'Your phone *',
@@ -206,7 +203,6 @@ return [
     |
     */
     'partners_heading' => 'Our partners',
-    'partners_subheading' => 'Want your page here?',
     /*
     |--------------------------------------------------------------------------
     | Contact Form section

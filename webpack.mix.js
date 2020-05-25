@@ -14,3 +14,4 @@ const mix = require('laravel-mix');
 mix.sass('resources/assets/sass/agency.scss', 'public/css')
     .js('resources/assets/js/agency.js', 'public/js/agency.js')
     .browserSync('127.0.0.1:8000');
+mix.minify('public/css/agency.css')

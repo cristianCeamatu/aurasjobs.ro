@@ -6,7 +6,12 @@
     </div>
 </div>
 <div class="container">
-    <div class="row">
+    <div class="apply-header row">
+        <div class="col-md-4 text-center service">
+            <div class="service-box">
+                @lang('welcome.apply_member3')
+            </div>
+        </div>
         <div class="col-md-4 text-center service">
             <div class="service-box">
                 @lang('welcome.apply_member1')
@@ -15,11 +20,6 @@
         <div class="col-md-4 text-center service">
             <div class="service-box">
                 @lang('welcome.apply_member2')
-            </div>
-        </div>
-        <div class="col-md-4 text-center service">
-            <div class="service-box">
-                @lang('welcome.apply_member3')
             </div>
         </div>
     </div>
@@ -33,7 +33,20 @@
                     <div class="row">
                         <div class="col-md-12">
                             @lang('welcome.applyForm_heading')
-                            <p class="text-center"><a href="downloads/aurasjobs_simple_cv_model.docx" download="aurasjobs Simple CV model" target="_blank"><strong>@lang('welcome.applyForm_link1')</strong></a>
+                            <ul class="downloads">
+                                <li class="downloads-item">
+                                    <a href="downloads/aurasjobs_simple_cv_model.docx" download="aurasjobs simple CV model" target="_blank">
+                                        <i class="fa fa-download fa-2x" aria-hidden="true"></i>
+                                        <strong>@lang('welcome.applyForm_link1')</strong>
+                                    </a>
+                                </li>
+                                <li class="downloads-item">
+                                    <a href="downloads/aurasjobs_example_cv_model.docx" download="aurasjobs example CV model" target="_blank">
+                                        <i class="fa fa-download fa-2x" aria-hidden="true"></i>
+                                        <strong>@lang('welcome.applyForm_link2')</strong>
+                                    </a>
+                                </li>
+                            </ul>
                             </p>
                         </div>
                     </div>
@@ -82,9 +95,9 @@
                     </div>
                     <div class="clearfix"></div>
                     <div class="col-lg-12 text-center">
+                        <br>
                         <small>@lang('welcome.applyForm_conditions')</small>
-                        <br />
-                        <br />
+                        <br>
                         <div id="applySuccess"></div>
                         <button type="submit" class="btn btn-xl" id="modal-apply">@lang('welcome.applyForm_button')</button>
                     </div>
