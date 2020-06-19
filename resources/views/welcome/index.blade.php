@@ -24,7 +24,6 @@
 @endsection
 
 @section('content')
-  @include ('welcome.components.temporaryModal')
   @include ('welcome.components.header')
   @include ('welcome.components.about')
   @include ('welcome.components.jobs')
