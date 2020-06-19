@@ -23,7 +23,7 @@
             Pentru aceste vapoare vor fi contactati cei care lucreaza din sezoanele trecute sau sunt deja contractati de catre aceste companii dar care nu au niciun voiaj la activ. In acest moment nu putem decat sa asteptam noutati pentru fiecare persoana in parte, de aceea va rugam si pe dvs sa va verificati emailurile zilnic.
           </p>
           <p>
-            Pentru persoanele noi care nu sunt contractate sau care nu au mai plecat pana acum si isi doresc un loc de munca pe vase de croaziera ne pot trimite Cv-urile in continuare pe adresa de email: office@aurasjobs.ro si ii rugam sa astepte noile informatii de la noi despre o posibila angajare in acest sezon si sa ne urmareasca pagina noastra de Facebook/emailurile personale sau/si ne pot contacta telefonic la unul din numerele de telefon: Cristian - 0725.085.231, Andreea - 0730.719.323, Auras - 0728.683.604
+            Pentru persoanele noi care nu sunt contractate sau care nu au mai plecat pana acum si isi doresc un loc de munca pe vase de croaziera ne pot trimite Cv-urile in continuare pe adresa de email: office@aurasjobs.ro si ii rugam sa astepte noile informatii de la noi despre o posibila angajare in acest sezon si sa ne urmareasca pagina noastra de Facebook/emailurile personale sau/si ne pot contacta telefonic la unul din numerele: Cristian - 0725.085.231, Andreea - 0730.719.323, Auras - 0728.683.604
           </p>
           <p>
             Va multumim tuturor pentru intelegere si asteptam sa ne sunati sau sa ne scrieti oricand 🙂!
