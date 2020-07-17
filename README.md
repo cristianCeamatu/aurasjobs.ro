@@ -1,7 +1,7 @@
 ![Hireable](https://cdn.rawgit.com/hiendv/hireable/master/styles/flat/yes.svg) 
 # ![Laravel logo](./.github/laravel-logo.png)
 
-> ### Production used single-page website built for own business using CRUD, advanced patterns and Laravel, Jquery, Sass, MySQL utilities. The app is used in production for a Recruiting agency, candidates can apply directly through a form on the website. The client will receive an email for each application or contact request, currently working on an admin page where he can manage the database of the candidate's applications and contact requests. The website is mobile responsive.
+> ### Production used single-page website built for own business using CRUD, advanced patterns and Laravel, Jquery, Sass, MySQL utilities. The app is used in production for a Recruiting agency, candidates can apply directly through a form on the website. The client will receive an email for each application or contact request, currently working on the admin page where the client will manage the database of the candidates applications and contact requests. The website is mobile responsive.
 
 ----------
 
@@ -50,6 +50,12 @@ Start the local development server
     php artisan serve
 
 You can now access the server at http://localhost:8000
+
+If you want to use the mail functionality on the forms run:
+
+    cp .example.env .env
+
+And then open .env and add you email account details.
 
 **TL;DR command list**
 
