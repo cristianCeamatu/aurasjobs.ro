@@ -14,6 +14,10 @@
 
 [English version Link](https://www.aurasjobs.ro/?lang=en)  -  [Romanian version Link](https://www.aurasjobs.ro)
 
+## Future features
+
+Currently working on the admin page where the client will manage the database of the candidates' applications and contact requests
+
 ## Built With
 
 - Laravel (PHP Framework)
@@ -66,9 +70,6 @@ And then open .env and add you email account details.
     npm install
     php artisan serve
 ```
-## Future features
-
-Currently working on the admin page where the client will manage the database of the candidates applications and contact requests
 
 ## Authors
 
