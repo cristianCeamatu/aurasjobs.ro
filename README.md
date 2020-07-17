@@ -35,19 +35,19 @@ Clone the repository
 
 Switch to the repo folder
 
-    `cd aurasjobs.ro-laravel`
+    cd aurasjobs.ro-laravel
 
 Install all the dependencies using composer
 
-    `composer install`
+    composer install
 
 Install all the javascript dependencies using npm
 
-    `npm install`
+    npm install
 
 Start the local development server
 
-    `php artisan serve`
+    php artisan serve
 
 You can now access the server at http://localhost:8000
 
