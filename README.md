@@ -1,7 +1,7 @@
 ![Hireable](https://cdn.rawgit.com/hiendv/hireable/master/styles/flat/yes.svg) 
 # ![Laravel logo](./.github/laravel-logo.png)
 
-> ### Production used single-page website built for own business using CRUD, advanced patterns and Laravel, Jquery, Sass, MySQL utilities. The app is used in production for a Recruiting agency, candidates can apply directly through a form on the website. The client will receive an email for each application or contact request. The website is mobile responsive.
+> ### Single page website used in production, built for own business using CRUD, advanced patterns and Laravel, Jquery, Sass, MySQL utilities. The app is used in production for a Recruiting agency, candidates can apply directly through a form on the website. The client will receive an email for each application or contact request. The website is mobile responsive.
 
 ----------
 
