@@ -8,6 +8,12 @@
 
 ![screenshot](./.github/app-screenshot.png)
 
+#### The website has internationalization using Laravel features, available in English and Romanian.
+
+## Live English version Demo
+
+[Live Demo Link](https://www.aurasjobs.ro/?lang=en)
+
 # Getting started
 
 ## Installation
