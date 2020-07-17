@@ -51,6 +51,12 @@ Start the local development server
 
 You can now access the server at http://localhost:8000
 
+If you want to use the mail functionality on the forms run:
+
+    cp .example.env .env
+
+And then open .env and add you email account details.
+
 **TL;DR command list**
 
 ```
