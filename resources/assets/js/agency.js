@@ -57,9 +57,6 @@ $(function() {
       if ($("textarea#applyMessage").val()) {
         fd.append("message", $("textarea#applyMessage").val());
       }
-      //   if ($("input#agreement").get(0).files.length !== 0) {
-      //     fd.append("agreement", $("input#agreement")[0].files[0]);
-      //   }
 
       $("#applySuccess").html("<div class='alert alert-warning'>");
       $("#applySuccess > .alert-warning")
@@ -265,6 +262,7 @@ $(function() {
     }
   });
 });
+<<<<<<< HEAD
 
 // Covid modal hide
 $(function() {
@@ -273,3 +271,5 @@ $(function() {
     $("#covid-modal").hide();
   });
 });
+=======
+>>>>>>> c1da7c72b1a5a942c1cb649c072863a5a4045fa6
