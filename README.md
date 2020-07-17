@@ -1,6 +1,4 @@
-![Hireable](https://cdn.rawgit.com/hiendv/hireable/master/styles/flat/yes.svg)
-
-# ![Laravel logo](./.github/laravel-logo.png)
+# ![Hireable](https://cdn.rawgit.com/hiendv/hireable/master/styles/flat/yes.svg) ![Laravel logo](./.github/laravel-logo.png)
 
 > ### Production used single-page website built for own business using CRUD, advanced patterns and Laravel, Jquery, Sass, MySQL utilities. The app is used in production for a Recruiting agency, candidates can apply directly through a form on the website. The client will receive an email for each application or contact request, currently working on an admin page where he can manage the database of the candidate's applications and contact requests. The website is mobile responsive.
 
