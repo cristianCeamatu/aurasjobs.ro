@@ -30,8 +30,8 @@ Currently working on the admin page where the client will manage the database of
 
 ## Prerequisites
 
-    1. Php - I recommend installing [xampp](https://www.apachefriends.org/index.html) but you have other options on their [official website](https://www.php.net/manual/en/install.php)
-    2. Node/NPM - [Installing Node](https://nodejs.org/en/)
+1. Php - I recommend installing [xampp](https://www.apachefriends.org/index.html) but you have other options on their [official website](https://www.php.net/manual/en/install.php)
+2. Node/NPM - [Installing Node](https://nodejs.org/en/)
 
 ## Installation
 
