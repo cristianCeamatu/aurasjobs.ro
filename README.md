@@ -28,6 +28,11 @@ Currently working on the admin page where the client will manage the database of
 
 # Getting started
 
+## Prerequisites
+
+    1. Php - I recommend installing [xampp](https://www.apachefriends.org/index.html) but you have other options on their [official website](https://www.php.net/manual/en/install.php)
+    2. Node/NPM - [Installing Node](https://nodejs.org/en/)
+
 ## Installation
 
 Please check the official laravel installation guide for server requirements before you start. [Official Documentation](https://laravel.com/docs/5.4/installation#installation)
