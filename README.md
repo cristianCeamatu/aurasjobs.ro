@@ -54,6 +54,10 @@ Install all the javascript dependencies using npm
 
     npm install
 
+Create the .env file by copying the example and your email account details in order to use the website forms
+
+    cp .example.env .env
+
 Start the local development server
 
     php artisan serve
