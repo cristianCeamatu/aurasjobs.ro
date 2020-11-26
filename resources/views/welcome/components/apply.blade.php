@@ -87,11 +87,6 @@
                             <input type="file" class="form-control" placeholder="Upload CV *" data-validation-required-message="Please upload you CV." id="cv">
                             <p class="help-block text-danger"></p>
                         </div>
-                        <div class="form-group">
-                            <label for="identificationDocument" class="text-muted">@lang('welcome.applyForm_identificationDocument')</label>
-                            <input type="file" class="form-control" id="identificationDocument">
-                            <p class="help-block text-danger"></p>
-                        </div>
                     </div>
                     <div class="clearfix"></div>
                     <div class="col-lg-12 text-center">
