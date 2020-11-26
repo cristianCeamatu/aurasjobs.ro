@@ -262,3 +262,14 @@ $(function() {
     }
   });
 });
+<<<<<<< HEAD
+
+// Covid modal hide
+$(function() {
+  $('button[data-dismiss="covid-modal"]').click(function(e) {
+    e.preventDefault();
+    $("#covid-modal").hide();
+  });
+});
+=======
+>>>>>>> c1da7c72b1a5a942c1cb649c072863a5a4045fa6

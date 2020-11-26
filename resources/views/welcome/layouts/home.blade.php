@@ -6,6 +6,7 @@
   <body {!!$body_element_attributes or ''!!}>
 
     @yield('top-scripts')
+    @include ('welcome.components.temporaryModal')
     @include ('welcome.components.navbar')
     @yield('content')
     @include ('welcome.components.contact')
