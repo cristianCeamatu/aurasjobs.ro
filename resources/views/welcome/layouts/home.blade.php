@@ -6,7 +6,7 @@
   <body {!!$body_element_attributes or ''!!}>
 
     @yield('top-scripts')
-    {{-- Add this line when you want to display a modal on the page --}}
+    {{-- Uncomment the line below when you want to display an information modal on the page --}}
     {{-- @include ('welcome.components.temporaryModal') --}}
     @include ('welcome.components.navbar')
     @yield('content')
