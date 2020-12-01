@@ -265,24 +265,23 @@ return [
                 <li>* Salariul este in euro (fara tips)</li>
                 <li><span>Hotel Manager</span> 2722</li>
                 <li><span>Sef receptie</span> 1225</li>
-                <li><span>Receptioner de zi/noapte</span> 1070/1100</li>
+                <li><span>Receptioner de zi/noapte</span> 1070/1100/1138</li>
                 <li><span>Concierge</span> 1266</li>                
                 <li><span>Instructor Fitness</span> 1200</li>                
                 <li><span>Bucatar Sef</span> 2638</li>
                 <li><span>Sous Chef</span> 1389</li>
                 <li><span>Chef de Partie</span> 1144</li>
-                <li><span>Demi Chef de Partie</span> 1100</li>
-                <li><span>Commis de cuisine</span> 1070/1100</li>
-                <li><span>Spalator de vase/rufe</span> 1070/1100</li>
+                <li><span>Demi Chef de Partie</span> 1070/1100/1138</li>
+                <li><span>Commis de cuisine</span> 1070/1100/1138</li>
+                <li><span>Spalator de vase/rufe</span> 1070/1100/1138</li>
                 <li><span>Sef de sala</span> 1225</li>
-                <li><span>Ospatar (engleza)</span> 1070/1100</li>
-                <li><span>Ospatar (germana)</span> 1070/1085/1150</li>
+                <li><span>Ospatar (engleza)</span> 1070/1100/1138</li>
                 <li><span>Bar Manager </span> 1144</li>
-                <li><span>Ospatar in Bar </span> 1070/1085/1150</li>
+                <li><span>Ospatar in Bar </span> 1070/1085/1138</li>
                 <li><span>Floor Supervisor</span> 1225</li>
-                <li><span>Camerist/Camerista</span> 1070/1100</li>
-                <li><span>Coafor/Shop</span> 1100</li>
-                <li><span>Masaj</span> 1070/1100</li>
+                <li><span>Camerist/Camerista</span> 1070/1100/1138</li>
+                <li><span>Coafor/Shop</span> 1138</li>
+                <li><span>Masaj</span> 1070/1100/1138</li>
             <li class="jobSubtitle">Informatii utile</li>
                 <li>La bordul navelor care transporta persoane vorbitoare de limba germana, tipsul variaza intre 400-600 euro/lunar</li>
                 <li>La bordul navelor care transporta persoane vorbitoare de limba engleza, tipsul variaza intre 400-1000 euro/lunar</li>

@@ -272,25 +272,24 @@ return [
             <li class="text-danger">With all the base salaries mentioned below you will receive a monthly payment for extra hours worked plus the Tip Box (plus Hand tips for some of the positions)</li>
                 <li><span>Hotel Manager</span> €2722</li>
                 <li><span>1st Receptionist</span> €1225</li>
-                <li><span>Receptionist</span> €1070/1100</li>
-                <li><span>Night-Auditor</span> €1070/1100</li>
+                <li><span>Receptionist</span> €1070/1100/1138</li>
+                <li><span>Adventure Host (Fitness trainer)</span> €1200</li>
+                <li><span>Night-Auditor</span> €1070/1100/1138</li>
                 <li><span>Executive Chef</span> €2638</li>
                 <li><span>Sous-Chef</span> €1389</li>
                 <li><span>Chef de Partie</span> €1144</li>
-                <li><span>Demi Chef de Partie</span> €1100</li>
-                <li><span>Junior Cook</span> €1070/1100</li>
-                <li><span>Utility</span> €1070/1100</li>
+                <li><span>Demi Chef de Partie</span> €1070/1125/1138</li>
+                <li><span>Junior Cook</span> €1070/1100/1138</li>
+                <li><span>Utility</span> €1070/1100/1138</li>
                 <li><span>Maitre D’</span> €1225</li>
-                <li><span>Waiter/Waitress</span> (English) €1070/1100</li>
-                <li><span>Waiter/Waitress</span> (German) €1085/1150</li>
-                <li><span>Bar Waiter/Waitress</span> (English) €1070/1100</li>
-                <li><span>Bar Waiter/Waitress</span> (German) €1085/1150</li>
+                <li><span>Waiter/Waitress</span> (English) €1070/1100/1138</li>
+                <li><span>Bar Waiter/Waitress</span> (English) €1070/1100/1138</li>
                 <li><span>Chef de Bar</span> (English/German) €1144</li>
                 <li><span>Housekeeper</span> €1225</li>
-                <li><span>Cabin Steward/Stewardess</span> €1070/1100</li>
-                <li><span>Laundry</span> €1070/1100</li>
-                <li><span>Hairdresser/Shop</span> €1100</li>
-                <li><span>Wellness</span> €1070/1100</li>
+                <li><span>Cabin Steward/Stewardess</span> €1070/1100/1138</li>
+                <li><span>Laundry</span> €1070/1100/1138</li>
+                <li><span>Hairdresser/Shop</span> €1138</li>
+                <li><span>Wellness</span> €1070/1100/1138</li>
             </li>
             <li class="jobSubtitle">Useful information</li>
                 <li>On vessels carrying European/British Guests, the tips will vary @ €400 - 800</li>
