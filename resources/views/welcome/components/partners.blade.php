@@ -6,10 +6,17 @@
             </div>
             <div class="partners-logos">
                 <div class="partners-logo">
-                    <img src="img/jobs/riveradvice-thumbnail.png" class="img-fluid d-block mx-auto" alt="Advertise Here photo">
+                  <a href="https://ro.jobsora.com/locuri-de-munc%C4%83-constan%C5%A3a" class="text-center text-small" rel="noreferrer noopener" target="_blank">
+                    <img src="img/partners/locuri-de-munca-in-constanta.png" class="img-fluid d-block mx-auto" alt="Locuri de muncă în Constanţa">
+                    <span class="d-none">
+                     Locuri de muncă în Constanţa
+                    </span>
+                  </a>
                 </div>
                 <div class="partners-logo">
-                    <img src="img/jobs/anqor-thumbnail.jpg" class="img-fluid d-block mx-auto" alt="Advertise Here photo">
+                  <a href="https://ro.jooble.org/" class="text-center text-small" rel="noreferrer noopener" target="_blank">
+                    <img src="img/partners/jooble.png" class="img-fluid d-block mx-auto" alt="Jooble">
+                  </a>
                 </div>
                 <div class="partners-logo">
                     <img src="img/jobs/cruisinc-thumbnail.png" class="img-fluid d-block mx-auto" alt="Advertise Here photo">
