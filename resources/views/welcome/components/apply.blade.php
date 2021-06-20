@@ -35,13 +35,13 @@
                             @lang('welcome.applyForm_heading')
                             <ul class="downloads">
                                 <li class="downloads-item">
-                                    <a href="downloads/aurasjobs_simple_cv_model.docx" download="aurasjobs simple CV model" target="_blank">
+                                    <a href="downloads/aurasjobs_simple_cv_model.docx" download="aurasjobs simple CV model" target="_blank" rel="noreferrer">
                                         <i class="fa fa-download fa-2x" aria-hidden="true"></i>
                                         <strong>@lang('welcome.applyForm_link1')</strong>
                                     </a>
                                 </li>
                                 <li class="downloads-item">
-                                    <a href="downloads/aurasjobs_example_cv_model.docx" download="aurasjobs example CV model" target="_blank">
+                                    <a href="downloads/aurasjobs_example_cv_model.docx" download="aurasjobs example CV model" target="_blank" rel="noreferrer">
                                         <i class="fa fa-download fa-2x" aria-hidden="true"></i>
                                         <strong>@lang('welcome.applyForm_link2')</strong>
                                     </a>

@@ -13,6 +13,6 @@ Go to website
 <br />
 <br />
 We will get back to you shortly<br />
-Follow us on facebook at <a href="https://www.facebook.com/aurasjobs.ro">@aurasjobs.ro</a><br />
+Follow us on facebook at <a href="https://www.facebook.com/aurasjobs.ro" rel="noreferrer">@aurasjobs.ro</a><br />
 {{ config('app.name') }} team <br />
 @endcomponent

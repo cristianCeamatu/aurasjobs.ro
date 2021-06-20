@@ -12,7 +12,7 @@
 <article>
     <h1>Vom reveni in curand!</h1>
     <div>
-        <p>Ne cerem scuze pentru inconveniente dar lucram sa improvizam serviciile noastre. Daca ai nevoie de noi ne poti gasi oricand la <a href="https://www.facebook.com/aurasjobs.ro" target="_blank"> facebook:aurasjobs.ro</a>, de asemenea, ne vei gasi din nou aici in scurt timp!</p>
+        <p>Ne cerem scuze pentru inconveniente dar lucram sa improvizam serviciile noastre. Daca ai nevoie de noi ne poti gasi oricand la <a href="https://www.facebook.com/aurasjobs.ro" rel="noreferrer" target="_blank"> facebook:aurasjobs.ro</a>, de asemenea, ne vei gasi din nou aici in scurt timp!</p>
         <p>echipa aurasjobs.ro</p>
     </div>
 </article>

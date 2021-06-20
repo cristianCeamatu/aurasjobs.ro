@@ -192,7 +192,7 @@ return [
     'applyForm_department' => 'Department applying for',
     'applyForm_cv' => 'Upload CV or Application Form *',
     'applyForm_identificationDocument' => 'Upload National ID or passport (OPTIONAL)',
-    'applyForm_conditions' => 'By pressing APPLY you agree to our data protection <a href="http://www.aurasjobs.ro/downloads/gdprEN.pdf" target="_blank">terms and conditions.</a>',
+    'applyForm_conditions' => 'By pressing APPLY you agree to our data protection <a href="http://www.aurasjobs.ro/downloads/gdprEN.pdf" target="_blank" rel="noreferrer">terms and conditions.</a>',
     'applyForm_button' => 'Apply',
     /*
     |--------------------------------------------------------------------------

@@ -63,7 +63,7 @@
                     </a>
                 </div>
                 <div class="footer-contact">
-                    <a href="https://www.facebook.com/aurasjobs/" target="_blank">
+                    <a href="https://www.facebook.com/aurasjobs/" target="_blank" rel="noreferrer">
                         <i class="fa fa-facebook fa-3x sr-contact"></i>
                         <br>
                         <span>@aurasjobs</span>
@@ -77,7 +77,7 @@
                     </a>
                 </div>
                 <div class="footer-contact">
-                    <a href="https://www.google.com/maps/place/aurasjobs.ro+-+Locuri+de+munca+vase+de+croaziera/@44.1770587,28.6430217,17z/data=!3m1!4b1!4m5!3m4!1s0x40bae51edba75ef3:0xd66d2d2bbae39b8f!8m2!3d44.1770549!4d28.6452104" target="_blank">
+                    <a href="https://www.google.com/maps/place/aurasjobs.ro+-+Locuri+de+munca+vase+de+croaziera/@44.1770587,28.6430217,17z/data=!3m1!4b1!4m5!3m4!1s0x40bae51edba75ef3:0xd66d2d2bbae39b8f!8m2!3d44.1770549!4d28.6452104" target="_blank" rel="noreferrer">
                         <i class="fa fa-globe fa-3x sr-contact" aria-hidden="true"></i>
                         <br>
                         <span>@lang('welcome.location')</span>

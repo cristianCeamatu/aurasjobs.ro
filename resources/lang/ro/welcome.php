@@ -180,9 +180,9 @@ return [
     'applyForm_phone' => 'Numar de telefon *',
     'applyForm_message' => 'Mesajul tau',
     'applyForm_department' => 'Departmanetul pentru care aplici',
-    'applyForm_cv' => 'Uploadeaza CV sau <a href="downloads/aurasjobs_simple_cv_model.doc" download="aurasjobs Application Form" target="_blank">formularul de aplicare</a> completat *',
+    'applyForm_cv' => 'Uploadeaza CV sau <a href="downloads/aurasjobs_simple_cv_model.doc" download="aurasjobs Application Form" target="_blank" rel="noreferrer">formularul de aplicare</a> completat *',
     'applyForm_identificationDocument' => 'Uploadeza copie dupa buletin sau pasaport (OPTIONAL)',
-    'applyForm_conditions' => 'Apasand pe APLICA sunteti de acord cu <a href="http://www.aurasjobs.ro/downloads/gdprRO.pdf" target="_blank">termenii si conditiile</a> prelucrarilor de date',
+    'applyForm_conditions' => 'Apasand pe APLICA sunteti de acord cu <a href="http://www.aurasjobs.ro/downloads/gdprRO.pdf" target="_blank" rel="noreferrer" rel="noreferrer">termenii si conditiile</a> prelucrarilor de date',
     'applyForm_button' => 'Aplica',
     /*
     |--------------------------------------------------------------------------
@@ -229,7 +229,7 @@ return [
                 <li><span>Tipsul in mână</span> - aveți dreptul la tipsuri, acestea depind de experientă și satisfacția oaspeților</li>
                 <li>Dacă completați corect primul contract - vă puteți aștepta să primiți un alt contract pentru sezonul urmator.</li>
                 <li><span>Cerințe de limbi:</span> engleză, germană, spaniolă sau franceză</li>
-                <li><span>Website: </span><a href="https://www.cruisinc.eu/" target="_blank">Cruisinc Creative Catering</a></li>
+                <li><span>Website: </span><a href="https://www.cruisinc.eu/" target="_blank" rel="noreferrer">Cruisinc Creative Catering</a></li>
             <li class="jobSubtitle">Locuri de munca</li>
                 <li>* Salariul este in euro (fara tips)</li>
                 <li><span>Hotel Manager</span> Negociabil</li>
@@ -260,7 +260,7 @@ return [
                 <li>Aproximativ 70 de ore de lucru pe saptamana, 7 zile pe saptamana, cu odihna dupa-amiaza si timp liber</li>
                 <li>Salariul dvs. lunar se va baza pe o săptămână de lucru de 42,5 ore, orele suplimentare de muncă fiind compensate fie în zile de vacanta, fie plătite la salariu</li>
                 <li>Daca finalizati primul contract veti primi o invitatie pentru urmatorul</li>
-                <li><span>Website: </span><a href="https://www.riveradvice.com/" target="_blank">River Advice Cruises</a></li>
+                <li><span>Website: </span><a href="https://www.riveradvice.com/" target="_blank" rel="noreferrer">River Advice Cruises</a></li>
             <li class="jobSubtitle">Locuri de munca</li>
                 <li>* Salariul este in euro (fara tips)</li>
                 <li><span>Hotel Manager</span> 2722</li>
@@ -303,7 +303,7 @@ return [
                 <li>MS Amadeus</li>
                 <li>Vasele sunt Premium 4+* & Regular 3* ce naviga pe rauri germane si belgiene - Rhine, Main, Moselle & Danube din Amsterdam pana la Marea Neagra cu pasageri vorbitori de limaba engleza, germana, franceza si spaniola.</li>
                 <li>Sezonul incepe in martie si se incheie in ianuarie.</li>
-                <li><span>Website: </span><a href="http://www.riveradvice.com/" target="_blank">Riseday Cruises</a></li>
+                <li><span>Website: </span><a href="http://www.riveradvice.com/" target="_blank" rel="noreferrer">Riseday Cruises</a></li>
             <li class="jobSubtitle">Locuri de munca</li>
                 <li><span>Purser</span> € 1,100.00</li>
                 <li><span>Receptionist / Night receptionist</span> € 750.00</li>
@@ -333,7 +333,7 @@ return [
             	<li>Tips la cutie in functie de pasageri, intre € 300 - € 800 lunar.</li>
                 <li>Costuri de calatorie – Pentru cheltuielile de imbarcare Edelweiss Gastro va rambursa 150,00 Euro (daca calatoriti catre Seine sau Rhone 190,00 Euro) dupa finalizarea primelor 90 de zile de munca pe vas. Aceasta suma nu se ramburseaza in cazul in care din orice motiv contractul se anuleaza in primele 90 de zile.</li>
             	<li>Conditii de pensionare : Pentru a beneficia trebuie sa lucrati sub contract cel putin 5 ani de zile.</li>
-                <li><span>Website: </span><a href="https://scylla.ch/en" target="_blank">Scylla/Edelweiss Gastro</a></li>
+                <li><span>Website: </span><a href="https://scylla.ch/en" target="_blank" rel="noreferrer">Scylla/Edelweiss Gastro</a></li>
             <li class="jobSubtitle">Locuri de munca</li>
                 <li>* Salariul este in euro fara tips inclus</li>
             	<li><span>Exc. Chef</span>	Individual	</li>
@@ -373,7 +373,7 @@ return [
                 <li>Asigurarea medicală acoperită de companie cu asistență Allianz Worldwide. Toate mesele și cazarea asigurate de către companie</li>
                 <li>Aranjamentele de călătorie: Biletele de îmbarcare într-o singură direcție trebuie să fie aranjate de angajați pentru confirmarea sosirii lor. Compania va rambursa cheltuielile de călătorie până la suma maximă de 250 EUR la sfârșitul contractelor încheiate cu succes. La sfârșit de sezon costul biletelor va fi acoperit de companie.</li>
                 <li class="text-muted text-danger">Se cere limba Engleza sau Germana la nivel conversational</li>
-                <li><span>Website: </span><a href="https://anqor.eu/" target="_blank">ANQOR River Cruises</a></li>
+                <li><span>Website: </span><a href="https://anqor.eu/" target="_blank" rel="noreferrer">ANQOR River Cruises</a></li>
             <li class="jobSubtitle">Locuri de munca</li>
                 <li>* Salariul este in euro fara tips inclus</li>
                 <li><span>Hotel Manager</span> €2,300.00 – €2,500.00</li>
@@ -415,7 +415,7 @@ return [
                 <li>Achitarea unei taxe de 25 EURO pe persoană pe lună pentru costul energiei electrice (plătibilă direct de către Angajator la Autoritatea de Electricitate) plus apă și alte taxe municipale.</li>
                 <li>Posibilitatea de a-ți construi o carieră, de a-ți imbunatati cunostintele și experiența cu personal multicultural.</li>
                 <li>Se cere limba Engleza si/sau limba Germana la nivel conversational</li>
-                <li><span>Website: </span><a href="https://www.cbh-cyprus.com/" target="_blank">Constantinou Bros Hotels</a></li>
+                <li><span>Website: </span><a href="https://www.cbh-cyprus.com/" target="_blank" rel="noreferrer">Constantinou Bros Hotels</a></li>
             <li class="jobSubtitle">Locuri de munca</li>
                 <li>* Salariul este in euro (fara tips)</li>
                 <li>Departamentul de servire va avea tipsuri suplimentare in mână de aproximativ 50,00 € - 100,00 € pe lună</li>

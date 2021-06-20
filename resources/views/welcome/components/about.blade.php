@@ -23,48 +23,48 @@
             <div class="row">
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/team/auras.jpg" class="mx-auto rounded-circle" alt="Panait Auras">
+                        <img src="img/team/auras.jpg" class="mx-auto rounded-circle" alt="Panait Auras" width="284" height="284">
                         <h4>Panait Auras</h4>
                       <!--  @lang('welcome.team_member1') -->
                       <br>
                         <ul class="list-inline social-buttons">
-                            <li class="list-inline-item"><a href="tel:0040728683604"><i class="fa fa-phone" target="_blank"></i></a>
+                            <li class="list-inline-item"><a href="tel:0040728683604"><i class="fa fa-phone" target="_blank" rel="noreferrer"></i></a>
                             </li>
-                            <li class="list-inline-item"><a href="https://www.facebook.com/auras.panait.940" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <li class="list-inline-item"><a href="https://www.facebook.com/auras.panait.940" target="_blank" rel="noreferrer"><i class="fa fa-facebook"></i></a>
                             </li>
-                            <li class="list-inline-item"><a href="https://www.linkedin.com/in/auras-panait-23a7a4133/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                            <li class="list-inline-item"><a href="https://www.linkedin.com/in/auras-panait-23a7a4133/" target="_blank" rel="noreferrer"><i class="fa fa-linkedin"></i></a>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/team/andreea.jpg" class="mx-auto rounded-circle" alt="Photo of Panait Andreea Elena Recruiting Agent">
+                        <img src="img/team/andreea.jpg" class="mx-auto rounded-circle" alt="Photo of Panait Andreea Elena Recruiting Agent" width="330" height="261">
                         <h4>Panait Andreea-Elena</h4>
                       <!--  @lang('welcome.team_member2') -->
                       <br>
                         <ul class="list-inline social-buttons">
-                            <li class="list-inline-item"><a href="tel:0040730719323" target="_blank"><i class="fa fa-phone"></i></a>
+                            <li class="list-inline-item"><a href="tel:0040730719323" target="_blank" rel="noreferrer"><i class="fa fa-phone"></i></a>
                             </li>
-                            <li class="list-inline-item"><a href="https://www.facebook.com/andreea.elena.7982" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <li class="list-inline-item"><a href="https://www.facebook.com/andreea.elena.7982" target="_blank" rel="noreferrer"><i class="fa fa-facebook"></i></a>
                             </li>
-                            <li class="list-inline-item"><a href="https://www.linkedin.com/in/ceamatu-cristian-viorel-7a5469136/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                            <li class="list-inline-item"><a href="https://www.linkedin.com/in/ceamatu-cristian-viorel-7a5469136/" target="_blank" rel="noreferrer"><i class="fa fa-linkedin"></i></a>
                             </li>
                         </ul>
                     </div>
                 </div>
                 <div class="col-sm-4">
                     <div class="team-member">
-                        <img src="img/team/cristi.jpg" class="mx-auto rounded-circle" alt="Photo of Ceamatu Cristian Viorel Recruiting Agent">
+                        <img src="img/team/cristi.jpg" class="mx-auto rounded-circle" alt="Photo of Ceamatu Cristian Viorel Recruiting Agent" width="175" height="182">
                         <h4>Ceamatu Cristian</h4>
                       <!--  @lang('welcome.team_member3') -->
                         <br>
                         <ul class="list-inline social-buttons">
-                            <li class="list-inline-item"><a href="tel:0040725085231" target="_blank"><i class="fa fa-phone"></i></a>
+                            <li class="list-inline-item"><a href="tel:0040725085231" target="_blank" rel="noreferrer"><i class="fa fa-phone"></i></a>
                             </li>
-                            <li class="list-inline-item"><a href="https://www.facebook.com/ceamatu.cristian" target="_blank"><i class="fa fa-facebook"></i></a>
+                            <li class="list-inline-item"><a href="https://www.facebook.com/ceamatu.cristian" target="_blank" rel="noreferrer"><i class="fa fa-facebook"></i></a>
                             </li>
-                            <li class="list-inline-item"><a href="https://www.linkedin.com/in/ceamatu-cristian-viorel-7a5469136/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                            <li class="list-inline-item"><a href="https://www.linkedin.com/in/ceamatu-cristian-viorel-7a5469136/" target="_blank" rel="noreferrer"><i class="fa fa-linkedin"></i></a>
                             </li>
                         </ul>
                     </div>
