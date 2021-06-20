@@ -3,7 +3,7 @@
     <div class="container">
         <div class="intro-text">
             <h1 class="intro-lead-in">@lang('welcome.jumbotron_title')</h1>
-            <div class="intro-heading"><h3><span id="typed"></span></h3></div>
+            <div class="intro-heading"><h2><span id="typed"></span></h2></div>
             <div id="typed-strings">@lang('welcome.jumbotron_subtitle')</div>
             <script>
                 var typed = new Typed('#typed', {
