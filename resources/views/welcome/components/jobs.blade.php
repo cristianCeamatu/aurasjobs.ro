@@ -35,7 +35,7 @@
                     <h4 class="text-center">River Advice Cruises</h4>
                 </div>
             </div>
-            <div class="col-md-4 col-sm-6 portfolio-item">
+            {{-- <div class="col-md-4 col-sm-6 portfolio-item">
                 <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
@@ -48,7 +48,7 @@
                 <div class="portfolio-caption">
                     <h4>Cursuri bucatari/ospatari</h4>
                 </div>
-            </div>
+            </div> --}}
             <div class="col-md-4 col-sm-6 portfolio-item">
                 <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                     <div class="portfolio-hover">

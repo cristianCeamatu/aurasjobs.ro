@@ -55,22 +55,22 @@
     <meta property="og:url" content="https://www.aurasjobs.ro/" />
     <meta property="og:description" content="Locuri de munca vase de croaziera ocean, rauri, strainatate, restaurant, hotel, punte, bucatari, ospatari, barmani, cameristi, spalatori de vase fara comision." />
     <meta property="og:type" content="website" />
-    <meta property="og:image" content="https://www.aurasjobs.ro/favicon.png" />
-    <meta property="og:image:width" content="300" />
-    <meta property="og:image:height" content="300" />
+    <meta property="og:image" content="https://www.aurasjobs.ro/images/logo995x475.jpg?3d8e0be1c1b28e22983e84e3af882cb5" />
+    <meta property="og:image:width" content="995" />
+    <meta property="og:image:height" content="475" />
     <meta property="og:locale" content="ro_RO" />
     <meta property="twitter:card" content="summary" />
     <meta property="twitter:title" content="Locuri de munca / Joburi / Angajari vase de croaziera fara comision" />
     <meta property="twitter:description" content="Locuri de munca vase de croaziera ocean, rauri, strainatate, restaurant, hotel, punte, bucatari, ospatari, barmani, cameristi, spalatori de vase fara comision." />
-    <meta property="twitter:image" content="https://www.aurasjobs.ro/favicon.png" />
-    <meta property="twitter:image:width" content="300" />
-    <meta property="twitter:image:height" content="300" />
+    <meta property="twitter:image" content="https://www.aurasjobs.ro/images/logo995x475.jpg?3d8e0be1c1b28e22983e84e3af882cb5" />
+    <meta property="twitter:image:width" content="995" />
+    <meta property="twitter:image:height" content="475" />
     <meta name="twitter:card" content="product" />
     <meta name="twitter:description" content="Locuri de munca vase de croaziera ocean, rauri, strainatate, restaurant, hotel, punte, bucatari, ospatari, barmani, cameristi, spalatori de vase fara comision."/>
     <meta name="twitter:title" content="Locuri de munca / Joburi / Angajari vase de croaziera fara comision" />
     <meta name="twitter:site" content="@aurasjobs" />
     <meta name="twitter:domain" content="aurasjobs.ro" />
-    <meta name="twitter:image:src" content="https://www.aurasjobs.ro/favicon.png" />
+    <meta name="twitter:image:src" content="https://www.aurasjobs.ro/images/logo995x475.jpg?3d8e0be1c1b28e22983e84e3af882cb5" />
     <meta name="twitter:creator" content="@aurasjobs" />
     <meta name="twitter:label1" content="Jobs" />
     <meta name="twitter:data1" content="Locuri de munca" />
@@ -113,5 +113,6 @@
     <title>Locuri de munca / Joburi / Angajari vase de croaziera fara comision</title>
 
     <!-- Custom styles for this theme -->
-    <link href="./css/agency.min.css" rel="stylesheet">
+    {{-- <link rel="preload" href="./css/agency.min.css" rel="stylesheet"> --}}
+    <link rel="preload" href="./css/agency.min.css" as="style" onload="this.rel='stylesheet'">
 </head>
