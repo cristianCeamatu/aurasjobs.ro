@@ -4,7 +4,7 @@
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu <i class="fa fa-bars"></i>
       </button>
-      <a class="navbar-brand page-scroll" href="#page-top"><img src="./img/logonew4.png" alt="Aurasjobs Logo"></a>
+      <a class="navbar-brand page-scroll" href="#page-top"><img src="./img/logonew4.png" alt="Aurasjobs Logo" width="174" height="50"></a>
       <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
               <li class="nav-item">

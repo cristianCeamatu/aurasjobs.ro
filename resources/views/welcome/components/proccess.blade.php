@@ -43,7 +43,7 @@
                 <ul class="timeline">
                     <li>
                         <div class="timeline-image">
-                            <img class="rounded-circle img-fluid" src="img/about/about1.jpg" alt="Person speaking at the phone">
+                            <img class="rounded-circle img-fluid" src="img/about/about1.jpg" width="200" height="200" alt="Person speaking at the phone">
                         </div>
                         <div class="timeline-panel">
                         @lang('welcome.journey_process1')
@@ -51,7 +51,7 @@
                     </li>
                     <li class="timeline-inverted">
                         <div class="timeline-image">
-                            <img class="rounded-circle img-fluid" src="img/about/about3.jpg" alt="People waiting for live one to one interview">
+                            <img class="rounded-circle img-fluid" src="img/about/about3.jpg" width="160" height="160" alt="People waiting for live one to one interview">
                         </div>
                         <div class="timeline-panel">
                         @lang('welcome.journey_process3')
@@ -59,7 +59,7 @@
                     </li>
                     <li>
                         <div class="timeline-image">
-                            <img class="rounded-circle img-fluid" src="img/about/about4.jpg" alt="Happy person">
+                            <img class="rounded-circle img-fluid" src="img/about/about4.jpg" width="200" height="200" alt="Happy person">
                         </div>
                         <div class="timeline-panel">
                         @lang('welcome.journey_process4')
@@ -67,7 +67,7 @@
                     </li>
                     <li class="timeline-inverted">
                         <div class="timeline-image">
-                            <img class="rounded-circle img-fluid" src="img/about/about2.jpg" alt="Handshake">
+                            <img class="rounded-circle img-fluid" src="img/about/about2.jpg" width="160" height="160" alt="Handshake">
                         </div>
                         <div class="timeline-panel">
                         @lang('welcome.journey_process2')
@@ -75,7 +75,7 @@
                     </li>
                     <li>
                         <div class="timeline-image">
-                            <img class="rounded-circle img-fluid" src="img/about/about6.jpg" alt="A hand with a pen signing a contract">
+                            <img class="rounded-circle img-fluid" src="img/about/about6.jpg" width="160" height="160" alt="A hand with a pen signing a contract">
                         </div>
                         <div class="timeline-panel">
                         @lang('welcome.journey_process5')

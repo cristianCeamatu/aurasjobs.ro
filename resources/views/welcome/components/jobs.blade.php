@@ -14,7 +14,7 @@
                             <i class="fa fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="img/jobs/cruisinc-thumbnail.png" class="img-fluid" alt="">
+                    <img src="img/jobs/cruisinc-thumbnail.png" class="img-fluid" alt="Cruisinc thumbnail" width="400" height="300">
                     <p class="bg-info">@lang('welcome.jobs_offerSubheading')</p>
                 </a>
                 <div class="portfolio-caption">
@@ -28,7 +28,7 @@
                             <i class="fa fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="img/jobs/riveradvice-thumbnail.png" class="img-fluid" alt="River Advice River Cruises Logo">
+                    <img src="img/jobs/riveradvice-thumbnail.png" class="img-fluid" alt="River Advice River Cruises Logo" width="400" height="300">
                     <p class="bg-info">@lang('welcome.jobs_offerSubheading')</p>
                 </a>
                 <div class="portfolio-caption">
@@ -56,7 +56,7 @@
                             <i class="fa fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="img/jobs/scylla-thumbnail.jpg" class="img-fluid" alt="">
+                    <img src="img/jobs/scylla-thumbnail.jpg" class="img-fluid" alt="Scylla thumbnail" width="400" height="300">
                     <p class="bg-info">@lang('welcome.jobs_offerSubheading')</p>
                 </a>
                 <div class="portfolio-caption">
@@ -70,7 +70,7 @@
                             <i class="fa fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="img/jobs/anqor-thumbnail.jpg" class="img-fluid" alt="Anqor River Cruises Logo">
+                    <img src="img/jobs/anqor-thumbnail.jpg" class="img-fluid" alt="Anqor River Cruises Logo" width="400" height="300">
                     <p class="bg-info">@lang('welcome.jobs_offerSubheading')</p>
                 </a>
                 <div class="portfolio-caption">
@@ -84,7 +84,7 @@
                             <i class="fa fa-plus fa-3x"></i>
                         </div>
                     </div>
-                    <img src="img/jobs/constantinou-thumbnail.jpg" class="img-fluid" alt="Constantinou Bros Hotels Logo">
+                    <img src="img/jobs/constantinou-thumbnail.jpg" width="400" height="300" class="img-fluid" alt="Constantinou Bros Hotels Logo">
                     <p class="bg-success">@lang('welcome.jobs_offerHotelLandJobs')</p>
                 </a>
                 <div class="portfolio-caption">
