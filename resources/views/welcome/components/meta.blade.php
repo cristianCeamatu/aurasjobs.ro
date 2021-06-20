@@ -113,6 +113,6 @@
     <title>Locuri de munca / Joburi / Angajari vase de croaziera fara comision</title>
 
     <!-- Custom styles for this theme -->
-    {{-- <link rel="preload" href="./css/agency.min.css" rel="stylesheet"> --}}
+    <link rel="preload" href="./fonts/fontawesome-webfont.woff2?af7ae505a9eed503f8b8e6982036873e" as="font" type="font/woff2" crossorigin>
     <link rel="preload" href="./css/agency.min.css" as="style" onload="this.rel='stylesheet'">
 </head>
